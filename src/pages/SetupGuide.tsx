@@ -62,7 +62,6 @@ const SetupGuide = () => {
                                 >
                                     <Download className="w-5 h-5 group-hover:scale-110 transition-transform" />
                                     <span>Antigravity İndir</span>
-                                    <span className="text-xs font-normal text-slate-500 ml-1">(macOS Universal)</span>
                                 </a>
 
 
