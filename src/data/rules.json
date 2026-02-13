@@ -1,0 +1,30 @@
+[
+    {
+        "id": "skill-first",
+        "title": "1️⃣ Skills First Protokolü",
+        "short_desc": "Uzun kural listeleri okumak yerine, işe uygun 'Skill' (Yetenek) dinamik olarak yüklenir.",
+        "full_desc": "Her görev için sıradan bir asistan gibi davranmak yasaktır. Örn: CSS işi varsa 'Frontend Architect', Sunucu işi varsa 'System Ops Expert' devreye girer. Bu sayede her işin uzmanı o işi yapar.",
+        "icon": "Zap"
+    },
+    {
+        "id": "universal-guardrails",
+        "title": "2️⃣ Evrensel Güvenlik",
+        "short_desc": "Asla veri kaybına yol açma. 'Safe Editing' politikası her zaman aktiftir.",
+        "full_desc": "Kullanıcı onayı olmadan fonksiyon imzaları değiştirilemez, kod silinemez. Her büyük değişiklik öncesi 'Hata Yapma Maliyeti' hesaplanır. Library eklerken 'npm audit' zorunludur.",
+        "icon": "ShieldCheck"
+    },
+    {
+        "id": "interaction-protocol",
+        "title": "3️⃣ İletişim Protokolü",
+        "short_desc": "Uzun süren işlerde kullanıcıyı 'notify_user' ile bilgilendir.",
+        "full_desc": "Uzun süren terminal işlemleri veya karmaşık analizler sırasında kullanıcıyı karanlıkta bırakma. 'notify_user' aracı ile ara durum raporları ver.",
+        "icon": "Bell"
+    },
+    {
+        "id": "transparency-footer",
+        "title": "4️⃣ Şeffaflık İmzası",
+        "short_desc": "Hangi yeteneğin kullanıldığı her cevabın altında belirtilir.",
+        "full_desc": "Kullanıcıya verilen her cevabın altında '📋 **Aktif Beceriler:** `skill-1`, `skill-2`' şeklinde bir imza bulunur. Bu, cevabın hangi uzmanlık alanından geldiğini kanıtlar.",
+        "icon": "FileText"
+    }
+]

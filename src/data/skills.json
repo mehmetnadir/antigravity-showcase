@@ -1,0 +1,158 @@
+[
+    {
+        "id": "frontend-architect",
+        "name": "Frontend Architect",
+        "icon": "Palette",
+        "description": "Shadcn/UI, Tailwind CSS ve React desenleri uzmanı. Modülerlik ve estetik mükemmelliğe odaklanır.",
+        "role": "Kıdemli Arayüz Mimarı",
+        "categories": [
+            "UI/UX",
+            "React",
+            "CSS"
+        ],
+        "file_path": "/skills/frontend-architect/SKILL.md"
+    },
+    {
+        "id": "backend-python-expert",
+        "name": "Backend Python Expert",
+        "icon": "Server",
+        "description": "FastAPI, Pydantic v2 ve Modern SQLAlchemy (2.0+) uzmanı. Yüksek performans ve tip güvenliği sağlar.",
+        "role": "Backend Mühendisi",
+        "categories": [
+            "Python",
+            "API",
+            "Database"
+        ],
+        "file_path": "/skills/backend_python_expert/SKILL.md"
+    },
+    {
+        "id": "electron-packager",
+        "name": "Electron Desktop Packager",
+        "icon": "Box",
+        "description": "Electron.js uygulama paketleme, inşa etme ve çapraz platform dağıtım (Win, Mac, Linux) uzmanı.",
+        "role": "Sürüm Mühendisi",
+        "categories": [
+            "Desktop",
+            "Build",
+            "Release"
+        ],
+        "file_path": "/skills/electron-packager/SKILL.md"
+    },
+    {
+        "id": "system-ops-expert",
+        "name": "System Ops & DevOps",
+        "icon": "Terminal",
+        "description": "Linux yönetimi, SSH, Docker, PM2 ve Nginx uzmanı. Hibrit altyapılarda stabiliteyi sağlar.",
+        "role": "DevOps Mühendisi",
+        "categories": [
+            "Linux",
+            "Docker",
+            "Server"
+        ],
+        "file_path": "/skills/system-ops-expert/SKILL.md"
+    },
+    {
+        "id": "game-mechanic",
+        "name": "Game Mechanic",
+        "icon": "Gamepad2",
+        "description": "HTML5 Canvas, GSAP animasyonları ve Oyun Döngüsü optimizasyonu uzmanı. Eğitim oyunları için.",
+        "role": "Oyun Motoru Mimarı",
+        "categories": [
+            "Canvas",
+            "Animation",
+            "Performance"
+        ],
+        "file_path": "/skills/game-mechanic/SKILL.md"
+    },
+    {
+        "id": "ai-engineer",
+        "name": "AI Engineer",
+        "icon": "BrainCircuit",
+        "description": "LLM entegrasyonu (Gemini, OpenAI), RAG mimarileri ve Prompt Mühendisliği uzmanı.",
+        "role": "AI Çözüm Mimarı",
+        "categories": [
+            "LLM",
+            "RAG",
+            "Prompting"
+        ],
+        "file_path": "/skills/ai-engineer/SKILL.md"
+    },
+    {
+        "id": "mobile-architect",
+        "name": "Mobile Architect",
+        "icon": "Smartphone",
+        "description": "Flutter/Dart geliştirme, mobil UI/UX ve native platform entegrasyonu uzmanı.",
+        "role": "Mobil Geliştirici",
+        "categories": [
+            "Flutter",
+            "Dart",
+            "Mobile"
+        ],
+        "file_path": "/skills/mobile-architect/SKILL.md"
+    },
+    {
+        "id": "media-processing-expert",
+        "name": "Media Expert",
+        "icon": "PlayCircle",
+        "description": "FFmpeg, ImageMagick, Ses/Video manipülasyonu ve toplu işleme uzmanı.",
+        "role": "Multimedya Mühendisi",
+        "categories": [
+            "FFmpeg",
+            "Video",
+            "Audio"
+        ],
+        "file_path": "/skills/media-processing-expert/SKILL.md"
+    },
+    {
+        "id": "library-selector",
+        "name": "Library Selector",
+        "icon": "Scale",
+        "description": "Doğru teknoloji yığınını seçen stratejik danışman. Sadece kurmaz, 'değerlendirir'.",
+        "role": "Teknik Danışman",
+        "categories": [
+            "Strategy",
+            "Security",
+            "Audit"
+        ],
+        "file_path": "/skills/library-selector/SKILL.md"
+    },
+    {
+        "id": "qa-engineer",
+        "name": "QA Engineer",
+        "icon": "ShieldCheck",
+        "description": "Birim, Entegrasyon ve E2E test stratejileri uzmanı. Regresyonları önler.",
+        "role": "Kalite Güvence",
+        "categories": [
+            "Testing",
+            "Debug",
+            "Quality"
+        ],
+        "file_path": "/skills/qa-engineer/SKILL.md"
+    },
+    {
+        "id": "project-guardian",
+        "name": "Project Guardian",
+        "icon": "FileText",
+        "description": "Proje planını korur, Git kurallarını (Conventional Commits) denetler.",
+        "role": "Proje Yöneticisi",
+        "categories": [
+            "Management",
+            "Git",
+            "Plan"
+        ],
+        "file_path": "/skills/project-guardian/SKILL.md"
+    },
+    {
+        "id": "antigravity-meta",
+        "name": "Antigravity Meta",
+        "icon": "Cpu",
+        "description": "Sistemin kendisini, güncellemeleri ve konfigürasyonları yöneten üst akıl.",
+        "role": "Sistem Operatörü",
+        "categories": [
+            "System",
+            "Config",
+            "Meta"
+        ],
+        "file_path": "/skills/antigravity-meta/SKILL.md"
+    }
+]
