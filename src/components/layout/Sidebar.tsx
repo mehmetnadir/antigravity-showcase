@@ -1,9 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, BookOpen, Zap, GitBranch, Cloud, Smartphone, MessageSquare } from 'lucide-react';
+import { LayoutDashboard, BookOpen, Zap, GitBranch, Cloud, Smartphone, MessageSquare, Terminal } from 'lucide-react';
 import { cn } from '../../lib/utils';
 
 export const Sidebar = () => {
     const navItems = [
+        { to: "/setup", icon: Terminal, label: "Kurulum" },
         { to: "/", icon: LayoutDashboard, label: "Felsefe" },
         { to: "/rules", icon: BookOpen, label: "Kurallar" },
         { to: "/skills", icon: Zap, label: "Yetenekler" },
