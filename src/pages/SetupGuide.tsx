@@ -24,6 +24,105 @@ const SetupGuide = () => {
                 </p>
             </div>
 
+            {/* Antigravity Setup - Moved Top */}
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="bg-white/50 backdrop-blur-xl border border-white/40 p-1 rounded-3xl shadow-sm"
+            >
+                <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-[1.3rem] p-8 md:p-10 text-white relative overflow-hidden">
+                    {/* Background Glow */}
+                    <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+
+                    <div className="relative z-10">
+                        <div className="flex flex-col md:flex-row gap-10 items-center">
+                            <div className="flex-1 space-y-6">
+                                <div>
+                                    <h2 className="text-3xl font-bold mb-2">Kurulum ve Başlangıç</h2>
+                                    <p className="text-slate-400 text-lg">
+                                        Terminal komutlarıyla uğraşmadan, doğrudan web üzerinden projeyi indirin.
+                                    </p>
+                                </div>
+
+                                <div className="space-y-4">
+                                    {/* Step 1 */}
+                                    <div className="flex gap-4 items-start">
+                                        <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
+                                        <div>
+                                            <h4 className="font-bold mb-1">Node.js'i Hazırlayın</h4>
+                                            <p className="text-sm text-slate-400">
+                                                Projeyi çalıştırmak için motor. <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">nodejs.org</a>'dan indirin.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    {/* Step 2 */}
+                                    <div className="flex gap-4 items-start">
+                                        <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
+                                        <div>
+                                            <h4 className="font-bold mb-1">Kaynak Kodu İndirin</h4>
+                                            <p className="text-sm text-slate-400 mb-3">
+                                                GitHub sayfasından "Code" &gt; "Download ZIP" diyerek veya butona tıklayarak indirin.
+                                            </p>
+                                            <a
+                                                href="https://github.com/mehmetnadir/antigravity-showcase/archive/refs/heads/master.zip"
+                                                className="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded-lg font-bold hover:bg-slate-200 transition-colors text-sm"
+                                            >
+                                                <Download className="w-4 h-4" />
+                                                Projeyi İndir (ZIP)
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    {/* Step 3 */}
+                                    <div className="flex gap-4 items-start">
+                                        <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold text-sm shrink-0 mt-1">3</div>
+                                        <div>
+                                            <h4 className="font-bold mb-1">Klasörü Açın ve Başlatın</h4>
+                                            <p className="text-sm text-slate-400">
+                                                ZIP'ten çıkan klasörü VS Code (veya Cursor) ile açın. Terminale <code>npm install</code> ve ardından <code>npm run dev</code> yazın.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Visual Aid: Folder Structure */}
+                            <div className="flex-1 w-full max-w-sm hidden md:block">
+                                <div className="bg-black/50 rounded-xl p-6 border border-white/10 shadow-2xl backdrop-blur-sm">
+                                    <div className="flex items-center gap-2 mb-4 border-b border-white/10 pb-4">
+                                        <div className="flex gap-1.5">
+                                            <div className="w-2.5 h-2.5 rounded-full bg-red-500/50"></div>
+                                            <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/50"></div>
+                                            <div className="w-2.5 h-2.5 rounded-full bg-green-500/50"></div>
+                                        </div>
+                                        <span className="text-xs text-slate-400 font-mono ml-2">antigravity-showcase</span>
+                                    </div>
+                                    <div className="space-y-3 font-mono text-sm">
+                                        <div className="flex items-center gap-2 text-blue-400">
+                                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" /></svg>
+                                            src
+                                        </div>
+                                        <div className="flex items-center gap-2 text-yellow-400">
+                                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                                            package.json
+                                        </div>
+                                        <div className="flex items-center gap-2 text-slate-400 pl-4">
+                                            <span className="w-1 h-1 rounded-full bg-slate-600"></span>
+                                            npm install
+                                        </div>
+                                        <div className="flex items-center gap-2 text-green-400 pl-4">
+                                            <span className="w-1 h-1 rounded-full bg-green-600 animate-pulse"></span>
+                                            npm run dev
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </motion.div>
+
             {/* IDE Selection */}
             <div className="grid md:grid-cols-2 gap-6">
                 {/* Cursor */}
@@ -111,71 +210,7 @@ const SetupGuide = () => {
                 </motion.div>
             </div>
 
-            {/* Antigravity Setup */}
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 }}
-                className="bg-white/50 backdrop-blur-xl border border-white/40 p-1 rounded-3xl shadow-sm mb-12"
-            >
-                <div className="bg-slate-900 rounded-[1.3rem] p-8 md:p-10 text-white relative overflow-hidden">
-                    {/* Background Glow */}
-                    <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
 
-                    <div className="relative z-10 grid md:grid-cols-2 gap-10 items-center">
-                        <div className="space-y-6">
-                            <div>
-                                <h2 className="text-3xl font-bold mb-2">Antigravity Kurulumu</h2>
-                                <p className="text-slate-400 text-lg">
-                                    Proje dosyalarını bilgisayarınıza indirin ve sistemi başlatın.
-                                </p>
-                            </div>
-
-                            <div className="space-y-4">
-                                <div className="flex gap-4">
-                                    <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold text-sm shrink-0">1</div>
-                                    <div>
-                                        <h4 className="font-bold mb-1">Node.js Yükleyin</h4>
-                                        <p className="text-sm text-slate-400">Projeyi çalıştırmak için gereklidir. <a href="https://nodejs.org/" className="text-blue-400 hover:text-blue-300 underline">nodejs.org</a> adresinden LTS sürümünü indirin.</p>
-                                    </div>
-                                </div>
-                                <div className="flex gap-4">
-                                    <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold text-sm shrink-0">2</div>
-                                    <div>
-                                        <h4 className="font-bold mb-1">Repoyu Klonlayın</h4>
-                                        <p className="text-sm text-slate-400">Terminali açın ve aşağıdaki komutu yapıştırın.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="bg-black/50 rounded-xl p-5 border border-white/10 font-mono text-sm leading-7 shadow-inner">
-                            <div className="flex justify-between items-center mb-3 pb-3 border-b border-white/10">
-                                <span className="text-slate-400 text-xs">Terminal</span>
-                                <div className="flex gap-1.5">
-                                    <div className="w-2.5 h-2.5 rounded-full bg-red-500/50"></div>
-                                    <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/50"></div>
-                                    <div className="w-2.5 h-2.5 rounded-full bg-green-500/50"></div>
-                                </div>
-                            </div>
-                            <div className="space-y-2">
-                                <p className="text-slate-300">
-                                    <span className="text-purple-400">git</span> clone https://github.com/mehmetnadir/antigravity-showcase.git
-                                </p>
-                                <p className="text-slate-300">
-                                    <span className="text-blue-400">cd</span> antigravity-showcase
-                                </p>
-                                <p className="text-slate-300">
-                                    <span className="text-green-400">npm</span> install
-                                </p>
-                                <p className="text-slate-300">
-                                    <span className="text-green-400">npm</span> run dev
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </motion.div>
 
             {/* Narrative & Video Section */}
             <div className="grid md:grid-cols-2 gap-12 items-start">

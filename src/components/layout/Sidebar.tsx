@@ -9,8 +9,7 @@ export const Sidebar = () => {
         { to: "/rules", icon: BookOpen, label: "Kurallar" },
         { to: "/skills", icon: Zap, label: "Yetenekler" },
         { to: "/workflow", icon: GitBranch, label: "Akış" },
-        { to: "/skills", icon: Zap, label: "Yetenekler" },
-        { to: "/workflow", icon: GitBranch, label: "Akış" },
+
         { to: "/deploy", icon: Cloud, label: "Tasarım & Yayınlama" },
         {
             to: "/assistant",
@@ -40,8 +39,7 @@ export const Sidebar = () => {
                         </>
                     )}
                 </NavLink>
-            );
-            })}
+            ))}
         </nav>
     );
 };
