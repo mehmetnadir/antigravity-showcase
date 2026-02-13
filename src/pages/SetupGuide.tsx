@@ -65,17 +65,10 @@ const SetupGuide = () => {
                                     <span className="text-xs font-normal text-slate-500 ml-1">(macOS Universal)</span>
                                 </a>
 
-                                <button className="flex items-center justify-center gap-3 bg-white/10 text-white px-8 py-4 rounded-xl font-bold hover:bg-white/20 transition-all border border-white/10 backdrop-blur-sm">
-                                    <Terminal className="w-5 h-5" />
-                                    <span>CLI Kurulumu</span>
-                                </button>
+
                             </div>
 
-                            <div className="text-sm text-slate-500 pt-2 flex items-center gap-4">
-                                <span>* Windows ve Linux desteği yakında.</span>
-                                <span className="w-1 h-1 bg-slate-700 rounded-full"></span>
-                                <span>Gereksinimler: Node.js 18+</span>
-                            </div>
+
                         </div>
 
                         {/* Interactive Terminal Visual */}
