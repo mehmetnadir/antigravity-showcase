@@ -24,99 +24,94 @@ const SetupGuide = () => {
                 </p>
             </div>
 
-            {/* Antigravity Setup - Moved Top */}
+            {/* Antigravity Product Section */}
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="bg-white/50 backdrop-blur-xl border border-white/40 p-1 rounded-3xl shadow-sm"
+                className="bg-gradient-to-br from-indigo-900 via-purple-900 to-slate-900 rounded-[2rem] p-1 shadow-2xl overflow-hidden relative"
             >
-                <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-[1.3rem] p-8 md:p-10 text-white relative overflow-hidden">
-                    {/* Background Glow */}
-                    <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+                <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-500/30 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
 
-                    <div className="relative z-10">
-                        <div className="flex flex-col md:flex-row gap-10 items-center">
-                            <div className="flex-1 space-y-6">
-                                <div>
-                                    <h2 className="text-3xl font-bold mb-2">Kurulum ve Başlangıç</h2>
-                                    <p className="text-slate-400 text-lg">
-                                        Terminal komutlarıyla uğraşmadan, doğrudan web üzerinden projeyi indirin.
-                                    </p>
+                <div className="bg-black/20 backdrop-blur-md rounded-[1.8rem] p-8 md:p-12 relative z-10">
+                    <div className="flex flex-col md:flex-row gap-12 items-center">
+                        <div className="flex-1 space-y-6">
+                            <div className="flex items-center gap-3 mb-2">
+                                <div className="px-3 py-1 bg-white/10 rounded-full text-xs font-bold text-white uppercase tracking-wider border border-white/20">
+                                    v2.1 Release
                                 </div>
-
-                                <div className="space-y-4">
-                                    {/* Step 1 */}
-                                    <div className="flex gap-4 items-start">
-                                        <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
-                                        <div>
-                                            <h4 className="font-bold mb-1">Node.js'i Hazırlayın</h4>
-                                            <p className="text-sm text-slate-400">
-                                                Projeyi çalıştırmak için motor. <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">nodejs.org</a>'dan indirin.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    {/* Step 2 */}
-                                    <div className="flex gap-4 items-start">
-                                        <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
-                                        <div>
-                                            <h4 className="font-bold mb-1">Kaynak Kodu İndirin</h4>
-                                            <p className="text-sm text-slate-400 mb-3">
-                                                GitHub sayfasından "Code" &gt; "Download ZIP" diyerek veya butona tıklayarak indirin.
-                                            </p>
-                                            <a
-                                                href="https://github.com/mehmetnadir/antigravity-showcase/archive/refs/heads/master.zip"
-                                                className="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded-lg font-bold hover:bg-slate-200 transition-colors text-sm"
-                                            >
-                                                <Download className="w-4 h-4" />
-                                                Projeyi İndir (ZIP)
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    {/* Step 3 */}
-                                    <div className="flex gap-4 items-start">
-                                        <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold text-sm shrink-0 mt-1">3</div>
-                                        <div>
-                                            <h4 className="font-bold mb-1">Klasörü Açın ve Başlatın</h4>
-                                            <p className="text-sm text-slate-400">
-                                                ZIP'ten çıkan klasörü VS Code (veya Cursor) ile açın. Terminale <code>npm install</code> ve ardından <code>npm run dev</code> yazın.
-                                            </p>
-                                        </div>
-                                    </div>
+                                <div className="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-xs font-bold uppercase tracking-wider border border-green-500/30 flex items-center gap-1">
+                                    <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></div>
+                                    Stable
                                 </div>
                             </div>
 
-                            {/* Visual Aid: Folder Structure */}
-                            <div className="flex-1 w-full max-w-sm hidden md:block">
-                                <div className="bg-black/50 rounded-xl p-6 border border-white/10 shadow-2xl backdrop-blur-sm">
-                                    <div className="flex items-center gap-2 mb-4 border-b border-white/10 pb-4">
-                                        <div className="flex gap-1.5">
-                                            <div className="w-2.5 h-2.5 rounded-full bg-red-500/50"></div>
-                                            <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/50"></div>
-                                            <div className="w-2.5 h-2.5 rounded-full bg-green-500/50"></div>
-                                        </div>
-                                        <span className="text-xs text-slate-400 font-mono ml-2">antigravity-showcase</span>
+                            <h2 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
+                                Antigravity <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Engine</span>
+                            </h2>
+
+                            <p className="text-lg text-slate-300 leading-relaxed max-w-lg">
+                                Yapay zeka orkestrasyonu ve otonom kodlama için tasarlanmış yeni nesil işletim sistemi. Cursor ve Windsurf ile kusursuz entegrasyon sağlar.
+                            </p>
+
+                            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                                <button className="flex items-center justify-center gap-3 bg-white text-slate-900 px-8 py-4 rounded-xl font-bold hover:bg-slate-100 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 group">
+                                    <Download className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                                    <span>macOS için İndir</span>
+                                    <span className="text-xs font-normal text-slate-500 ml-1">(Intel & Silicon)</span>
+                                </button>
+
+                                <button className="flex items-center justify-center gap-3 bg-white/10 text-white px-8 py-4 rounded-xl font-bold hover:bg-white/20 transition-all border border-white/10 backdrop-blur-sm">
+                                    <Terminal className="w-5 h-5" />
+                                    <span>CLI Kurulumu</span>
+                                </button>
+                            </div>
+
+                            <div className="text-sm text-slate-500 pt-2 flex items-center gap-4">
+                                <span>* Windows ve Linux desteği yakında.</span>
+                                <span className="w-1 h-1 bg-slate-700 rounded-full"></span>
+                                <span>Gereksinimler: Node.js 18+</span>
+                            </div>
+                        </div>
+
+                        {/* Interactive Terminal Visual */}
+                        <div className="flex-1 w-full max-w-md">
+                            <div className="bg-[#1E1E1E] rounded-xl overflow-hidden shadow-2xl border border-white/10 font-mono text-sm relative group">
+                                <div className="flex items-center justify-between px-4 py-3 bg-[#2D2D2D] border-b border-black/50">
+                                    <div className="flex gap-2">
+                                        <div className="w-3 h-3 rounded-full bg-[#FF5F56]"></div>
+                                        <div className="w-3 h-3 rounded-full bg-[#FFBD2E]"></div>
+                                        <div className="w-3 h-3 rounded-full bg-[#27C93F]"></div>
                                     </div>
-                                    <div className="space-y-3 font-mono text-sm">
-                                        <div className="flex items-center gap-2 text-blue-400">
-                                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" /></svg>
-                                            src
+                                    <div className="text-slate-500 text-xs">zsh — antigravity</div>
+                                </div>
+                                <div className="p-6 space-y-4 text-slate-300 min-h-[220px]">
+                                    <div>
+                                        <span className="text-green-400">➜</span> <span className="text-cyan-400">~</span> <span className="text-white">npx antigravity-init</span>
+                                    </div>
+                                    <div className="text-slate-400">
+                                        Initializing Antigravity Engine v2.1...
+                                    </div>
+                                    <div className="space-y-1">
+                                        <div className="flex items-center gap-2">
+                                            <span className="text-green-500">✓</span>
+                                            <span>System Core Loaded</span>
                                         </div>
-                                        <div className="flex items-center gap-2 text-yellow-400">
-                                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
-                                            package.json
+                                        <div className="flex items-center gap-2">
+                                            <span className="text-green-500">✓</span>
+                                            <span>AI Models Connected (Gemini, Claude)</span>
                                         </div>
-                                        <div className="flex items-center gap-2 text-slate-400 pl-4">
-                                            <span className="w-1 h-1 rounded-full bg-slate-600"></span>
-                                            npm install
+                                        <div className="flex items-center gap-2">
+                                            <span className="text-green-500">✓</span>
+                                            <span>Workspace Indexed</span>
                                         </div>
-                                        <div className="flex items-center gap-2 text-green-400 pl-4">
-                                            <span className="w-1 h-1 rounded-full bg-green-600 animate-pulse"></span>
-                                            npm run dev
-                                        </div>
+                                    </div>
+                                    <div className="text-purple-400 pt-2 animate-pulse">
+                                        Ready for instructions..._
                                     </div>
                                 </div>
+
+                                {/* Hover Effect Overlay */}
+                                <div className="absolute inset-0 bg-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
                             </div>
                         </div>
                     </div>
