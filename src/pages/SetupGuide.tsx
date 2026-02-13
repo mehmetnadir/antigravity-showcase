@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Terminal, Download, Cpu, Code2, Command, Zap } from 'lucide-react';
+import { LessonVideo } from '../components/ui/LessonVideo';
 
 const SetupGuide = () => {
     return (
@@ -115,7 +116,7 @@ const SetupGuide = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
-                className="bg-white/50 backdrop-blur-xl border border-white/40 p-1 rounded-3xl shadow-sm"
+                className="bg-white/50 backdrop-blur-xl border border-white/40 p-1 rounded-3xl shadow-sm mb-12"
             >
                 <div className="bg-slate-900 rounded-[1.3rem] p-8 md:p-10 text-white relative overflow-hidden">
                     {/* Background Glow */}
@@ -176,6 +177,59 @@ const SetupGuide = () => {
                 </div>
             </motion.div>
 
+            {/* Narrative & Video Section */}
+            <div className="grid md:grid-cols-2 gap-12 items-start">
+                <div className="space-y-6">
+                    <div>
+                        <h3 className="text-2xl font-bold text-slate-900 mb-2">Kurulumdan Sonra Ne Olacak?</h3>
+                        <p className="text-slate-600 leading-relaxed">
+                            Terminalde <code>Local: http://localhost:5173</code> yazısını gördüğünüzde, projeniz kendi bilgisayarınızda çalışıyor demektir.
+                            Artık bu canlı bir organizma gibidir; kodları değiştirdiğinizde anında tarayıcıda sonucunu göreceksiniz.
+                        </p>
+                    </div>
+
+                    <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
+                        <h4 className="font-bold text-blue-900 mb-2">Neden Önce Kurallar?</h4>
+                        <p className="text-sm text-blue-800 leading-relaxed">
+                            Yazılıma başlamadan önce bir "anayasa" belirlemeliyiz. Yapay zeka (AI) çok güçlüdür ancak kontrolsüz bırakılırsa kaotik kodlar üretir.
+                            <strong>Kurallar (Rules)</strong>, bizim AI ile nasıl konuşacağımızı ve projenin sınırlarını belirler. Bir plana sadık kalmadan bina inşa edemezsiniz; yazılım da böyledir.
+                        </p>
+                    </div>
+                </div>
+
+                <LessonVideo
+                    title="1. Ders: Kurulum ve Temeller"
+                    description="Geliştirme ortamının hazırlanması ve ilk adımlar."
+                    videoUrl="https://drive.google.com/file/d/1dyYGJbEFGlhrs7gQrg4F4cNkLCtFa9x0/view?usp=drive_link"
+                />
+            </div>
+
+            {/* Narrative & Video Section */}
+            <div className="grid md:grid-cols-2 gap-12 items-start">
+                <div className="space-y-6">
+                    <div>
+                        <h3 className="text-2xl font-bold text-slate-900 mb-2">Kurulumdan Sonra Ne Olacak?</h3>
+                        <p className="text-slate-600 leading-relaxed">
+                            Terminalde <code>Local: http://localhost:5173</code> yazısını gördüğünüzde, projeniz kendi bilgisayarınızda çalışıyor demektir.
+                            Artık bu canlı bir organizma gibidir; kodları değiştirdiğinizde anında tarayıcıda sonucunu göreceksiniz.
+                        </p>
+                    </div>
+
+                    <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
+                        <h4 className="font-bold text-blue-900 mb-2">Neden Önce Kurallar?</h4>
+                        <p className="text-sm text-blue-800 leading-relaxed">
+                            Yazılıma başlamadan önce bir "anayasa" belirlemeliyiz. Yapay zeka (AI) çok güçlüdür ancak kontrolsüz bırakılırsa kaotik kodlar üretir.
+                            <strong>Kurallar (Rules)</strong>, bizim AI ile nasıl konuşacağımızı ve projenin sınırlarını belirler. Bir plana sadık kalmadan bina inşa edemezsiniz; yazılım da böyledir.
+                        </p>
+                    </div>
+                </div>
+
+                <LessonVideo
+                    title="1. Ders: Kurulum ve Temeller"
+                    description="Geliştirme ortamının hazırlanması ve ilk adımlar."
+                    videoUrl="https://drive.google.com/file/d/1dyYGJbEFGlhrs7gQrg4F4cNkLCtFa9x0/view?usp=drive_link"
+                />
+            </div>
         </div>
     );
 };

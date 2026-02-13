@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, ChevronUp, Bell, Lock, FileText, Zap } from 'lucide-react';
 import rulesData from '../data/rules.json';
+import { LessonVideo } from '../components/ui/LessonVideo';
 
 const iconMap: any = { Bell, Lock, FileText, Zap };
 
@@ -11,6 +12,13 @@ const Rules = () => {
             <div className="mb-8">
                 <h2 className="text-3xl font-bold text-foreground">Sistem Kuralları</h2>
                 <p className="text-muted-foreground mt-2">Antigravity'nin asla ihlal etmediği temel çalışma prensipleri.</p>
+                <div className="mt-8">
+                    <LessonVideo
+                        title="2. Ders: Planlama ve Kurallar"
+                        description="Yetenek yönetimi ve kural setlerinin önemi."
+                        videoUrl="https://drive.google.com/file/d/16qHxtbyfMdHbMxM9lba1-2wWw-DXVCoq/view?usp=drive_link"
+                    />
+                </div>
             </div>
 
             <div className="grid gap-4">

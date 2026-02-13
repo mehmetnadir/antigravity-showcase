@@ -1,6 +1,7 @@
 
 import { motion } from 'framer-motion';
 import { Github, Globe, CheckCircle2, Terminal, Cloud } from 'lucide-react';
+import { LessonVideo } from '../components/ui/LessonVideo';
 
 const DeployGuide = () => {
     return (
@@ -10,6 +11,13 @@ const DeployGuide = () => {
                 <p className="text-muted-foreground mt-2 text-lg">
                     Projeniz yerel olarak Git'e hazırlandı. Şimdi GitHub'a gönderelim.
                 </p>
+                <div className="mt-8">
+                    <LessonVideo
+                        title="3. Ders: Tasarım ve Yayınlama"
+                        description="Stitch, Figma ile tasarım ve Vercel/Netlify yayın süreçleri."
+                        videoUrl="https://drive.google.com/file/d/1qGLA76-_UzV9MO1ua5gCnLFZ3-FNHdQ5/view?usp=drive_link"
+                    />
+                </div>
             </div>
 
             <div className="grid gap-8">
