@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 const ParticleBackground = () => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -30,6 +30,15 @@ const ParticleBackground = () => {
             color: string;
 
             constructor() {
+                if (!canvas) {
+                    this.x = 0;
+                    this.y = 0;
+                    this.size = 0;
+                    this.speedX = 0;
+                    this.speedY = 0;
+                    this.color = '';
+                    return;
+                }
                 this.x = Math.random() * canvas.width;
                 this.y = Math.random() * canvas.height;
                 this.size = Math.random() * 2 + 0.5; // Small size like dust
@@ -51,6 +60,7 @@ const ParticleBackground = () => {
             }
 
             update() {
+                if (!canvas) return;
                 this.x += this.speedX;
                 this.y += this.speedY;
 
@@ -82,7 +92,7 @@ const ParticleBackground = () => {
         };
 
         const animate = () => {
-            if (!ctx) return;
+            if (!ctx || !canvas) return;
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
             // Draw static shapes or background gradient if needed here?

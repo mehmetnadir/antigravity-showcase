@@ -1,158 +1,2675 @@
 [
     {
-        "id": "frontend-architect",
-        "name": "Frontend Architect",
+        "id": "3d-web-experience",
+        "name": "3d Web Experience",
+        "icon": "Cpu",
+        "description": "3d Web Experience yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/3d-web-experience/SKILL.md"
+    },
+    {
+        "id": "ab-test-setup",
+        "name": "Ab Test Setup",
+        "icon": "Cpu",
+        "description": "Ab Test Setup yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/ab-test-setup/SKILL.md"
+    },
+    {
+        "id": "active-directory-attacks",
+        "name": "Active Directory Attacks",
+        "icon": "ShieldCheck",
+        "description": "Active Directory Attacks yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/active-directory-attacks/SKILL.md"
+    },
+    {
+        "id": "address-github-comments",
+        "name": "Address Github Comments",
+        "icon": "Cpu",
+        "description": "Address Github Comments yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/address-github-comments/SKILL.md"
+    },
+    {
+        "id": "agent-evaluation",
+        "name": "Agent Evaluation",
+        "icon": "BrainCircuit",
+        "description": "Agent Evaluation yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/agent-evaluation/SKILL.md"
+    },
+    {
+        "id": "agent-manager-skill",
+        "name": "Agent Manager Skill",
+        "icon": "BrainCircuit",
+        "description": "Agent Manager Skill yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/agent-manager-skill/SKILL.md"
+    },
+    {
+        "id": "agent-memory-mcp",
+        "name": "Agent Memory Mcp",
+        "icon": "BrainCircuit",
+        "description": "Agent Memory Mcp yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/agent-memory-mcp/SKILL.md"
+    },
+    {
+        "id": "agent-memory-systems",
+        "name": "Agent Memory Systems",
+        "icon": "BrainCircuit",
+        "description": "Agent Memory Systems yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/agent-memory-systems/SKILL.md"
+    },
+    {
+        "id": "agent-tool-builder",
+        "name": "Agent Tool Builder",
         "icon": "Palette",
-        "description": "Shadcn/UI, Tailwind CSS ve React desenleri uzmanı. Modülerlik ve estetik mükemmelliğe odaklanır.",
-        "role": "Kıdemli Arayüz Mimarı",
+        "description": "Agent Tool Builder yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
         "categories": [
-            "UI/UX",
-            "React",
-            "CSS"
+            "Frontend & Tasarım"
         ],
-        "file_path": "/skills/frontend-architect/SKILL.md"
+        "file_path": "/skills/agent-tool-builder/SKILL.md"
     },
     {
-        "id": "backend-python-expert",
-        "name": "Backend Python Expert",
-        "icon": "Server",
-        "description": "FastAPI, Pydantic v2 ve Modern SQLAlchemy (2.0+) uzmanı. Yüksek performans ve tip güvenliği sağlar.",
-        "role": "Backend Mühendisi",
+        "id": "ai-agents-architect",
+        "name": "Ai Agents Architect",
+        "icon": "BrainCircuit",
+        "description": "Ai Agents Architect yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
         "categories": [
-            "Python",
-            "API",
-            "Database"
+            "Yapay Zeka (AI)"
         ],
-        "file_path": "/skills/backend_python_expert/SKILL.md"
-    },
-    {
-        "id": "electron-packager",
-        "name": "Electron Desktop Packager",
-        "icon": "Box",
-        "description": "Electron.js uygulama paketleme, inşa etme ve çapraz platform dağıtım (Win, Mac, Linux) uzmanı.",
-        "role": "Sürüm Mühendisi",
-        "categories": [
-            "Desktop",
-            "Build",
-            "Release"
-        ],
-        "file_path": "/skills/electron-packager/SKILL.md"
-    },
-    {
-        "id": "system-ops-expert",
-        "name": "System Ops & DevOps",
-        "icon": "Terminal",
-        "description": "Linux yönetimi, SSH, Docker, PM2 ve Nginx uzmanı. Hibrit altyapılarda stabiliteyi sağlar.",
-        "role": "DevOps Mühendisi",
-        "categories": [
-            "Linux",
-            "Docker",
-            "Server"
-        ],
-        "file_path": "/skills/system-ops-expert/SKILL.md"
-    },
-    {
-        "id": "game-mechanic",
-        "name": "Game Mechanic",
-        "icon": "Gamepad2",
-        "description": "HTML5 Canvas, GSAP animasyonları ve Oyun Döngüsü optimizasyonu uzmanı. Eğitim oyunları için.",
-        "role": "Oyun Motoru Mimarı",
-        "categories": [
-            "Canvas",
-            "Animation",
-            "Performance"
-        ],
-        "file_path": "/skills/game-mechanic/SKILL.md"
+        "file_path": "/skills/ai-agents-architect/SKILL.md"
     },
     {
         "id": "ai-engineer",
-        "name": "AI Engineer",
+        "name": "Ai Engineer",
         "icon": "BrainCircuit",
-        "description": "LLM entegrasyonu (Gemini, OpenAI), RAG mimarileri ve Prompt Mühendisliği uzmanı.",
-        "role": "AI Çözüm Mimarı",
+        "description": "Ai Engineer yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
         "categories": [
-            "LLM",
-            "RAG",
-            "Prompting"
+            "Yapay Zeka (AI)"
         ],
         "file_path": "/skills/ai-engineer/SKILL.md"
     },
     {
-        "id": "mobile-architect",
-        "name": "Mobile Architect",
-        "icon": "Smartphone",
-        "description": "Flutter/Dart geliştirme, mobil UI/UX ve native platform entegrasyonu uzmanı.",
-        "role": "Mobil Geliştirici",
+        "id": "ai-product",
+        "name": "Ai Product",
+        "icon": "BrainCircuit",
+        "description": "Ai Product yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
         "categories": [
-            "Flutter",
-            "Dart",
-            "Mobile"
+            "Yapay Zeka (AI)"
         ],
-        "file_path": "/skills/mobile-architect/SKILL.md"
+        "file_path": "/skills/ai-product/SKILL.md"
     },
     {
-        "id": "media-processing-expert",
-        "name": "Media Expert",
-        "icon": "PlayCircle",
-        "description": "FFmpeg, ImageMagick, Ses/Video manipülasyonu ve toplu işleme uzmanı.",
-        "role": "Multimedya Mühendisi",
+        "id": "ai-wrapper-product",
+        "name": "Ai Wrapper Product",
+        "icon": "BrainCircuit",
+        "description": "Ai Wrapper Product yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
         "categories": [
-            "FFmpeg",
-            "Video",
-            "Audio"
+            "Yapay Zeka (AI)"
         ],
-        "file_path": "/skills/media-processing-expert/SKILL.md"
+        "file_path": "/skills/ai-wrapper-product/SKILL.md"
     },
     {
-        "id": "library-selector",
-        "name": "Library Selector",
-        "icon": "Scale",
-        "description": "Doğru teknoloji yığınını seçen stratejik danışman. Sadece kurmaz, 'değerlendirir'.",
-        "role": "Teknik Danışman",
+        "id": "algolia-search",
+        "name": "Algolia Search",
+        "icon": "Cpu",
+        "description": "Algolia Search yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
         "categories": [
-            "Strategy",
-            "Security",
-            "Audit"
+            "Genel / Diğer"
         ],
-        "file_path": "/skills/library-selector/SKILL.md"
+        "file_path": "/skills/algolia-search/SKILL.md"
     },
     {
-        "id": "qa-engineer",
-        "name": "QA Engineer",
-        "icon": "ShieldCheck",
-        "description": "Birim, Entegrasyon ve E2E test stratejileri uzmanı. Regresyonları önler.",
-        "role": "Kalite Güvence",
+        "id": "algorithmic-art",
+        "name": "Algorithmic Art",
+        "icon": "Cpu",
+        "description": "Algorithmic Art yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
         "categories": [
-            "Testing",
-            "Debug",
-            "Quality"
+            "Genel / Diğer"
         ],
-        "file_path": "/skills/qa-engineer/SKILL.md"
+        "file_path": "/skills/algorithmic-art/SKILL.md"
     },
     {
-        "id": "project-guardian",
-        "name": "Project Guardian",
-        "icon": "FileText",
-        "description": "Proje planını korur, Git kurallarını (Conventional Commits) denetler.",
-        "role": "Proje Yöneticisi",
+        "id": "analytics-tracking",
+        "name": "Analytics Tracking",
+        "icon": "Cpu",
+        "description": "Analytics Tracking yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
         "categories": [
-            "Management",
-            "Git",
-            "Plan"
+            "Genel / Diğer"
         ],
-        "file_path": "/skills/project-guardian/SKILL.md"
+        "file_path": "/skills/analytics-tracking/SKILL.md"
     },
     {
         "id": "antigravity-meta",
         "name": "Antigravity Meta",
         "icon": "Cpu",
-        "description": "Sistemin kendisini, güncellemeleri ve konfigürasyonları yöneten üst akıl.",
-        "role": "Sistem Operatörü",
+        "description": "Antigravity Meta yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
         "categories": [
-            "System",
-            "Config",
-            "Meta"
+            "Genel / Diğer"
         ],
         "file_path": "/skills/antigravity-meta/SKILL.md"
+    },
+    {
+        "id": "api-documentation-generator",
+        "name": "Api Documentation Generator",
+        "icon": "Server",
+        "description": "Api Documentation Generator yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/api-documentation-generator/SKILL.md"
+    },
+    {
+        "id": "api-fuzzing-bug-bounty",
+        "name": "Api Fuzzing Bug Bounty",
+        "icon": "Server",
+        "description": "Api Fuzzing Bug Bounty yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/api-fuzzing-bug-bounty/SKILL.md"
+    },
+    {
+        "id": "api-patterns",
+        "name": "Api Patterns",
+        "icon": "Server",
+        "description": "Api Patterns yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/api-patterns/SKILL.md"
+    },
+    {
+        "id": "api-security-best-practices",
+        "name": "Api Security Best Practices",
+        "icon": "ShieldCheck",
+        "description": "Api Security Best Practices yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/api-security-best-practices/SKILL.md"
+    },
+    {
+        "id": "app-builder",
+        "name": "App Builder",
+        "icon": "Palette",
+        "description": "App Builder yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/app-builder/SKILL.md"
+    },
+    {
+        "id": "app-store-optimization",
+        "name": "App Store Optimization",
+        "icon": "Cpu",
+        "description": "App Store Optimization yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/app-store-optimization/SKILL.md"
+    },
+    {
+        "id": "architecture",
+        "name": "Architecture",
+        "icon": "Cpu",
+        "description": "Architecture yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/architecture/SKILL.md"
+    },
+    {
+        "id": "autonomous-agent-patterns",
+        "name": "Autonomous Agent Patterns",
+        "icon": "BrainCircuit",
+        "description": "Autonomous Agent Patterns yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/autonomous-agent-patterns/SKILL.md"
+    },
+    {
+        "id": "autonomous-agents",
+        "name": "Autonomous Agents",
+        "icon": "BrainCircuit",
+        "description": "Autonomous Agents yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/autonomous-agents/SKILL.md"
+    },
+    {
+        "id": "aws-penetration-testing",
+        "name": "Aws Penetration Testing",
+        "icon": "ShieldCheck",
+        "description": "Aws Penetration Testing yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/aws-penetration-testing/SKILL.md"
+    },
+    {
+        "id": "aws-serverless",
+        "name": "Aws Serverless",
+        "icon": "Server",
+        "description": "Aws Serverless yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/aws-serverless/SKILL.md"
+    },
+    {
+        "id": "azure-functions",
+        "name": "Azure Functions",
+        "icon": "Cpu",
+        "description": "Azure Functions yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/azure-functions/SKILL.md"
+    },
+    {
+        "id": "backend-dev-guidelines",
+        "name": "Backend Dev Guidelines",
+        "icon": "Palette",
+        "description": "Backend Dev Guidelines yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/backend-dev-guidelines/SKILL.md"
+    },
+    {
+        "id": "backend_python_expert",
+        "name": "Backend_python_expert",
+        "icon": "Server",
+        "description": "Backend_python_expert yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/backend_python_expert/SKILL.md"
+    },
+    {
+        "id": "bash-linux",
+        "name": "Bash Linux",
+        "icon": "Cpu",
+        "description": "Bash Linux yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/bash-linux/SKILL.md"
+    },
+    {
+        "id": "behavioral-modes",
+        "name": "Behavioral Modes",
+        "icon": "Cpu",
+        "description": "Behavioral Modes yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/behavioral-modes/SKILL.md"
+    },
+    {
+        "id": "blockrun",
+        "name": "Blockrun",
+        "icon": "Cpu",
+        "description": "Blockrun yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/blockrun/SKILL.md"
+    },
+    {
+        "id": "brainstorming",
+        "name": "Brainstorming",
+        "icon": "BrainCircuit",
+        "description": "Brainstorming yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/brainstorming/SKILL.md"
+    },
+    {
+        "id": "brand-guidelines-anthropic",
+        "name": "Brand Guidelines Anthropic",
+        "icon": "Palette",
+        "description": "Brand Guidelines Anthropic yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/brand-guidelines-anthropic/SKILL.md"
+    },
+    {
+        "id": "brand-guidelines-community",
+        "name": "Brand Guidelines Community",
+        "icon": "Palette",
+        "description": "Brand Guidelines Community yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/brand-guidelines-community/SKILL.md"
+    },
+    {
+        "id": "broken-authentication",
+        "name": "Broken Authentication",
+        "icon": "Server",
+        "description": "Broken Authentication yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/broken-authentication/SKILL.md"
+    },
+    {
+        "id": "browser-automation",
+        "name": "Browser Automation",
+        "icon": "Cpu",
+        "description": "Browser Automation yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/browser-automation/SKILL.md"
+    },
+    {
+        "id": "browser-extension-builder",
+        "name": "Browser Extension Builder",
+        "icon": "Palette",
+        "description": "Browser Extension Builder yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/browser-extension-builder/SKILL.md"
+    },
+    {
+        "id": "bullmq-specialist",
+        "name": "Bullmq Specialist",
+        "icon": "BrainCircuit",
+        "description": "Bullmq Specialist yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/bullmq-specialist/SKILL.md"
+    },
+    {
+        "id": "bun-development",
+        "name": "Bun Development",
+        "icon": "Cpu",
+        "description": "Bun Development yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/bun-development/SKILL.md"
+    },
+    {
+        "id": "burp-suite-testing",
+        "name": "Burp Suite Testing",
+        "icon": "Palette",
+        "description": "Burp Suite Testing yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/burp-suite-testing/SKILL.md"
+    },
+    {
+        "id": "canvas-design",
+        "name": "Canvas Design",
+        "icon": "Palette",
+        "description": "Canvas Design yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/canvas-design/SKILL.md"
+    },
+    {
+        "id": "cc-skill-backend-patterns",
+        "name": "Cc Skill Backend Patterns",
+        "icon": "Server",
+        "description": "Cc Skill Backend Patterns yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/cc-skill-backend-patterns/SKILL.md"
+    },
+    {
+        "id": "cc-skill-clickhouse-io",
+        "name": "Cc Skill Clickhouse Io",
+        "icon": "Cpu",
+        "description": "Cc Skill Clickhouse Io yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/cc-skill-clickhouse-io/SKILL.md"
+    },
+    {
+        "id": "cc-skill-coding-standards",
+        "name": "Cc Skill Coding Standards",
+        "icon": "Cpu",
+        "description": "Cc Skill Coding Standards yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/cc-skill-coding-standards/SKILL.md"
+    },
+    {
+        "id": "cc-skill-continuous-learning",
+        "name": "Cc Skill Continuous Learning",
+        "icon": "Cpu",
+        "description": "Cc Skill Continuous Learning yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/cc-skill-continuous-learning/SKILL.md"
+    },
+    {
+        "id": "cc-skill-frontend-patterns",
+        "name": "Cc Skill Frontend Patterns",
+        "icon": "Palette",
+        "description": "Cc Skill Frontend Patterns yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/cc-skill-frontend-patterns/SKILL.md"
+    },
+    {
+        "id": "cc-skill-project-guidelines-example",
+        "name": "Cc Skill Project Guidelines Example",
+        "icon": "Palette",
+        "description": "Cc Skill Project Guidelines Example yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/cc-skill-project-guidelines-example/SKILL.md"
+    },
+    {
+        "id": "cc-skill-security-review",
+        "name": "Cc Skill Security Review",
+        "icon": "ShieldCheck",
+        "description": "Cc Skill Security Review yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/cc-skill-security-review/SKILL.md"
+    },
+    {
+        "id": "cc-skill-strategic-compact",
+        "name": "Cc Skill Strategic Compact",
+        "icon": "Cpu",
+        "description": "Cc Skill Strategic Compact yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/cc-skill-strategic-compact/SKILL.md"
+    },
+    {
+        "id": "claude-code-guide",
+        "name": "Claude Code Guide",
+        "icon": "Palette",
+        "description": "Claude Code Guide yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/claude-code-guide/SKILL.md"
+    },
+    {
+        "id": "claude-d3js-skill",
+        "name": "Claude D3js Skill",
+        "icon": "Cpu",
+        "description": "Claude D3js Skill yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/claude-d3js-skill/SKILL.md"
+    },
+    {
+        "id": "clean-code",
+        "name": "Clean Code",
+        "icon": "Cpu",
+        "description": "Clean Code yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/clean-code/SKILL.md"
+    },
+    {
+        "id": "clerk-auth",
+        "name": "Clerk Auth",
+        "icon": "Server",
+        "description": "Clerk Auth yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/clerk-auth/SKILL.md"
+    },
+    {
+        "id": "cloud-penetration-testing",
+        "name": "Cloud Penetration Testing",
+        "icon": "ShieldCheck",
+        "description": "Cloud Penetration Testing yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/cloud-penetration-testing/SKILL.md"
+    },
+    {
+        "id": "code-review-checklist",
+        "name": "Code Review Checklist",
+        "icon": "Cpu",
+        "description": "Code Review Checklist yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/code-review-checklist/SKILL.md"
+    },
+    {
+        "id": "competitor-alternatives",
+        "name": "Competitor Alternatives",
+        "icon": "Cpu",
+        "description": "Competitor Alternatives yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/competitor-alternatives/SKILL.md"
+    },
+    {
+        "id": "computer-use-agents",
+        "name": "Computer Use Agents",
+        "icon": "BrainCircuit",
+        "description": "Computer Use Agents yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/computer-use-agents/SKILL.md"
+    },
+    {
+        "id": "concise-planning",
+        "name": "Concise Planning",
+        "icon": "Cpu",
+        "description": "Concise Planning yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/concise-planning/SKILL.md"
+    },
+    {
+        "id": "content-creator",
+        "name": "Content Creator",
+        "icon": "Cpu",
+        "description": "Content Creator yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/content-creator/SKILL.md"
+    },
+    {
+        "id": "context-window-management",
+        "name": "Context Window Management",
+        "icon": "Cpu",
+        "description": "Context Window Management yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/context-window-management/SKILL.md"
+    },
+    {
+        "id": "conversation-memory",
+        "name": "Conversation Memory",
+        "icon": "Cpu",
+        "description": "Conversation Memory yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/conversation-memory/SKILL.md"
+    },
+    {
+        "id": "copy-editing",
+        "name": "Copy Editing",
+        "icon": "Cpu",
+        "description": "Copy Editing yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/copy-editing/SKILL.md"
+    },
+    {
+        "id": "copywriting",
+        "name": "Copywriting",
+        "icon": "TrendingUp",
+        "description": "Copywriting yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/copywriting/SKILL.md"
+    },
+    {
+        "id": "core-components",
+        "name": "Core Components",
+        "icon": "Cpu",
+        "description": "Core Components yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/core-components/SKILL.md"
+    },
+    {
+        "id": "crewai",
+        "name": "Crewai",
+        "icon": "BrainCircuit",
+        "description": "Crewai yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/crewai/SKILL.md"
+    },
+    {
+        "id": "database-design",
+        "name": "Database Design",
+        "icon": "Palette",
+        "description": "Database Design yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/database-design/SKILL.md"
+    },
+    {
+        "id": "deployment-procedures",
+        "name": "Deployment Procedures",
+        "icon": "Cpu",
+        "description": "Deployment Procedures yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/deployment-procedures/SKILL.md"
+    },
+    {
+        "id": "discord-bot-architect",
+        "name": "Discord Bot Architect",
+        "icon": "Cpu",
+        "description": "Discord Bot Architect yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/discord-bot-architect/SKILL.md"
+    },
+    {
+        "id": "dispatching-parallel-agents",
+        "name": "Dispatching Parallel Agents",
+        "icon": "BrainCircuit",
+        "description": "Dispatching Parallel Agents yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/dispatching-parallel-agents/SKILL.md"
+    },
+    {
+        "id": "doc-coauthoring",
+        "name": "Doc Coauthoring",
+        "icon": "Server",
+        "description": "Doc Coauthoring yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/doc-coauthoring/SKILL.md"
+    },
+    {
+        "id": "docker-expert",
+        "name": "Docker Expert",
+        "icon": "Server",
+        "description": "Docker Expert yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/docker-expert/SKILL.md"
+    },
+    {
+        "id": "documentation-templates",
+        "name": "Documentation Templates",
+        "icon": "Cpu",
+        "description": "Documentation Templates yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/documentation-templates/SKILL.md"
+    },
+    {
+        "id": "docx",
+        "name": "Docx",
+        "icon": "Cpu",
+        "description": "Docx yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/docx/SKILL.md"
+    },
+    {
+        "id": "docx-official",
+        "name": "Docx Official",
+        "icon": "Cpu",
+        "description": "Docx Official yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/docx-official/SKILL.md"
+    },
+    {
+        "id": "electron-packager",
+        "name": "Electron Packager",
+        "icon": "Cpu",
+        "description": "Electron Packager yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/electron-packager/SKILL.md"
+    },
+    {
+        "id": "email-sequence",
+        "name": "Email Sequence",
+        "icon": "BrainCircuit",
+        "description": "Email Sequence yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/email-sequence/SKILL.md"
+    },
+    {
+        "id": "email-systems",
+        "name": "Email Systems",
+        "icon": "BrainCircuit",
+        "description": "Email Systems yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/email-systems/SKILL.md"
+    },
+    {
+        "id": "environment-setup-guide",
+        "name": "Environment Setup Guide",
+        "icon": "Palette",
+        "description": "Environment Setup Guide yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/environment-setup-guide/SKILL.md"
+    },
+    {
+        "id": "ethical-hacking-methodology",
+        "name": "Ethical Hacking Methodology",
+        "icon": "ShieldCheck",
+        "description": "Ethical Hacking Methodology yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/ethical-hacking-methodology/SKILL.md"
+    },
+    {
+        "id": "executing-plans",
+        "name": "Executing Plans",
+        "icon": "Cpu",
+        "description": "Executing Plans yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/executing-plans/SKILL.md"
+    },
+    {
+        "id": "file-organizer",
+        "name": "File Organizer",
+        "icon": "Cpu",
+        "description": "File Organizer yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/file-organizer/SKILL.md"
+    },
+    {
+        "id": "file-path-traversal",
+        "name": "File Path Traversal",
+        "icon": "Cpu",
+        "description": "File Path Traversal yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/file-path-traversal/SKILL.md"
+    },
+    {
+        "id": "file-uploads",
+        "name": "File Uploads",
+        "icon": "Cpu",
+        "description": "File Uploads yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/file-uploads/SKILL.md"
+    },
+    {
+        "id": "finishing-a-development-branch",
+        "name": "Finishing A Development Branch",
+        "icon": "Cpu",
+        "description": "Finishing A Development Branch yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/finishing-a-development-branch/SKILL.md"
+    },
+    {
+        "id": "firebase",
+        "name": "Firebase",
+        "icon": "Cpu",
+        "description": "Firebase yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/firebase/SKILL.md"
+    },
+    {
+        "id": "form-cro",
+        "name": "Form Cro",
+        "icon": "TrendingUp",
+        "description": "Form Cro yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/form-cro/SKILL.md"
+    },
+    {
+        "id": "free-tool-strategy",
+        "name": "Free Tool Strategy",
+        "icon": "Cpu",
+        "description": "Free Tool Strategy yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/free-tool-strategy/SKILL.md"
+    },
+    {
+        "id": "frontend-architect",
+        "name": "Frontend Architect",
+        "icon": "Palette",
+        "description": "Frontend Architect yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/frontend-architect/SKILL.md"
+    },
+    {
+        "id": "frontend-design",
+        "name": "Frontend Design",
+        "icon": "Palette",
+        "description": "Frontend Design yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/frontend-design/SKILL.md"
+    },
+    {
+        "id": "frontend-dev-guidelines",
+        "name": "Frontend Dev Guidelines",
+        "icon": "Palette",
+        "description": "Frontend Dev Guidelines yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/frontend-dev-guidelines/SKILL.md"
+    },
+    {
+        "id": "game-development",
+        "name": "Game Development",
+        "icon": "Gamepad2",
+        "description": "Game Development yeteneği. Sisteminize Oyun & Medya alanında uzmanlık katar.",
+        "role": "Oyun & Medya Uzmanı",
+        "categories": [
+            "Oyun & Medya"
+        ],
+        "file_path": "/skills/game-development/SKILL.md"
+    },
+    {
+        "id": "game-mechanic",
+        "name": "Game Mechanic",
+        "icon": "Gamepad2",
+        "description": "Game Mechanic yeteneği. Sisteminize Oyun & Medya alanında uzmanlık katar.",
+        "role": "Oyun & Medya Uzmanı",
+        "categories": [
+            "Oyun & Medya"
+        ],
+        "file_path": "/skills/game-mechanic/SKILL.md"
+    },
+    {
+        "id": "gcp-cloud-run",
+        "name": "Gcp Cloud Run",
+        "icon": "Cpu",
+        "description": "Gcp Cloud Run yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/gcp-cloud-run/SKILL.md"
+    },
+    {
+        "id": "geo-fundamentals",
+        "name": "Geo Fundamentals",
+        "icon": "Cpu",
+        "description": "Geo Fundamentals yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/geo-fundamentals/SKILL.md"
+    },
+    {
+        "id": "git-pushing",
+        "name": "Git Pushing",
+        "icon": "Cpu",
+        "description": "Git Pushing yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/git-pushing/SKILL.md"
+    },
+    {
+        "id": "github-workflow-automation",
+        "name": "Github Workflow Automation",
+        "icon": "Cpu",
+        "description": "Github Workflow Automation yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/github-workflow-automation/SKILL.md"
+    },
+    {
+        "id": "graphql",
+        "name": "Graphql",
+        "icon": "Cpu",
+        "description": "Graphql yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/graphql/SKILL.md"
+    },
+    {
+        "id": "html-injection-testing",
+        "name": "Html Injection Testing",
+        "icon": "Cpu",
+        "description": "Html Injection Testing yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/html-injection-testing/SKILL.md"
+    },
+    {
+        "id": "hubspot-integration",
+        "name": "Hubspot Integration",
+        "icon": "Cpu",
+        "description": "Hubspot Integration yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/hubspot-integration/SKILL.md"
+    },
+    {
+        "id": "i18n-localization",
+        "name": "I18n Localization",
+        "icon": "Cpu",
+        "description": "I18n Localization yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/i18n-localization/SKILL.md"
+    },
+    {
+        "id": "idor-testing",
+        "name": "Idor Testing",
+        "icon": "Cpu",
+        "description": "Idor Testing yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/idor-testing/SKILL.md"
+    },
+    {
+        "id": "inngest",
+        "name": "Inngest",
+        "icon": "Cpu",
+        "description": "Inngest yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/inngest/SKILL.md"
+    },
+    {
+        "id": "interactive-portfolio",
+        "name": "Interactive Portfolio",
+        "icon": "Cpu",
+        "description": "Interactive Portfolio yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/interactive-portfolio/SKILL.md"
+    },
+    {
+        "id": "internal-comms-anthropic",
+        "name": "Internal Comms Anthropic",
+        "icon": "Cpu",
+        "description": "Internal Comms Anthropic yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/internal-comms-anthropic/SKILL.md"
+    },
+    {
+        "id": "internal-comms-community",
+        "name": "Internal Comms Community",
+        "icon": "Cpu",
+        "description": "Internal Comms Community yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/internal-comms-community/SKILL.md"
+    },
+    {
+        "id": "javascript-mastery",
+        "name": "Javascript Mastery",
+        "icon": "Cpu",
+        "description": "Javascript Mastery yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/javascript-mastery/SKILL.md"
+    },
+    {
+        "id": "kaizen",
+        "name": "Kaizen",
+        "icon": "BrainCircuit",
+        "description": "Kaizen yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/kaizen/SKILL.md"
+    },
+    {
+        "id": "langfuse",
+        "name": "Langfuse",
+        "icon": "Cpu",
+        "description": "Langfuse yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/langfuse/SKILL.md"
+    },
+    {
+        "id": "langgraph",
+        "name": "Langgraph",
+        "icon": "Cpu",
+        "description": "Langgraph yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/langgraph/SKILL.md"
+    },
+    {
+        "id": "launch-strategy",
+        "name": "Launch Strategy",
+        "icon": "Cpu",
+        "description": "Launch Strategy yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/launch-strategy/SKILL.md"
+    },
+    {
+        "id": "library-selector",
+        "name": "Library Selector",
+        "icon": "Cpu",
+        "description": "Library Selector yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/library-selector/SKILL.md"
+    },
+    {
+        "id": "lint-and-validate",
+        "name": "Lint And Validate",
+        "icon": "Cpu",
+        "description": "Lint And Validate yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/lint-and-validate/SKILL.md"
+    },
+    {
+        "id": "linux-privilege-escalation",
+        "name": "Linux Privilege Escalation",
+        "icon": "Cpu",
+        "description": "Linux Privilege Escalation yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/linux-privilege-escalation/SKILL.md"
+    },
+    {
+        "id": "linux-shell-scripting",
+        "name": "Linux Shell Scripting",
+        "icon": "Cpu",
+        "description": "Linux Shell Scripting yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/linux-shell-scripting/SKILL.md"
+    },
+    {
+        "id": "llm-app-patterns",
+        "name": "Llm App Patterns",
+        "icon": "BrainCircuit",
+        "description": "Llm App Patterns yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/llm-app-patterns/SKILL.md"
+    },
+    {
+        "id": "loki-mode",
+        "name": "Loki Mode",
+        "icon": "Cpu",
+        "description": "Loki Mode yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/loki-mode/SKILL.md"
+    },
+    {
+        "id": "marketing-ideas",
+        "name": "Marketing Ideas",
+        "icon": "TrendingUp",
+        "description": "Marketing Ideas yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/marketing-ideas/SKILL.md"
+    },
+    {
+        "id": "marketing-psychology",
+        "name": "Marketing Psychology",
+        "icon": "TrendingUp",
+        "description": "Marketing Psychology yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/marketing-psychology/SKILL.md"
+    },
+    {
+        "id": "mcp-builder",
+        "name": "Mcp Builder",
+        "icon": "Palette",
+        "description": "Mcp Builder yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/mcp-builder/SKILL.md"
+    },
+    {
+        "id": "media-processing-expert",
+        "name": "Media Processing Expert",
+        "icon": "Cpu",
+        "description": "Media Processing Expert yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/media-processing-expert/SKILL.md"
+    },
+    {
+        "id": "metasploit-framework",
+        "name": "Metasploit Framework",
+        "icon": "Cpu",
+        "description": "Metasploit Framework yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/metasploit-framework/SKILL.md"
+    },
+    {
+        "id": "micro-saas-launcher",
+        "name": "Micro Saas Launcher",
+        "icon": "TrendingUp",
+        "description": "Micro Saas Launcher yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/micro-saas-launcher/SKILL.md"
+    },
+    {
+        "id": "mobile-architect",
+        "name": "Mobile Architect",
+        "icon": "Smartphone",
+        "description": "Mobile Architect yeteneği. Sisteminize Mobil alanında uzmanlık katar.",
+        "role": "Mobil Uzmanı",
+        "categories": [
+            "Mobil"
+        ],
+        "file_path": "/skills/mobile-architect/SKILL.md"
+    },
+    {
+        "id": "mobile-design",
+        "name": "Mobile Design",
+        "icon": "Palette",
+        "description": "Mobile Design yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/mobile-design/SKILL.md"
+    },
+    {
+        "id": "moodle-external-api-development",
+        "name": "Moodle External Api Development",
+        "icon": "Server",
+        "description": "Moodle External Api Development yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/moodle-external-api-development/SKILL.md"
+    },
+    {
+        "id": "neon-postgres",
+        "name": "Neon Postgres",
+        "icon": "Cpu",
+        "description": "Neon Postgres yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/neon-postgres/SKILL.md"
+    },
+    {
+        "id": "nestjs-expert",
+        "name": "Nestjs Expert",
+        "icon": "Cpu",
+        "description": "Nestjs Expert yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/nestjs-expert/SKILL.md"
+    },
+    {
+        "id": "network-101",
+        "name": "Network 101",
+        "icon": "Cpu",
+        "description": "Network 101 yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/network-101/SKILL.md"
+    },
+    {
+        "id": "nextjs-best-practices",
+        "name": "Nextjs Best Practices",
+        "icon": "Cpu",
+        "description": "Nextjs Best Practices yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/nextjs-best-practices/SKILL.md"
+    },
+    {
+        "id": "nextjs-supabase-auth",
+        "name": "Nextjs Supabase Auth",
+        "icon": "Server",
+        "description": "Nextjs Supabase Auth yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/nextjs-supabase-auth/SKILL.md"
+    },
+    {
+        "id": "nodejs-best-practices",
+        "name": "Nodejs Best Practices",
+        "icon": "Cpu",
+        "description": "Nodejs Best Practices yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/nodejs-best-practices/SKILL.md"
+    },
+    {
+        "id": "notebooklm",
+        "name": "Notebooklm",
+        "icon": "Cpu",
+        "description": "Notebooklm yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/notebooklm/SKILL.md"
+    },
+    {
+        "id": "notion-template-business",
+        "name": "Notion Template Business",
+        "icon": "Cpu",
+        "description": "Notion Template Business yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/notion-template-business/SKILL.md"
+    },
+    {
+        "id": "onboarding-cro",
+        "name": "Onboarding Cro",
+        "icon": "TrendingUp",
+        "description": "Onboarding Cro yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/onboarding-cro/SKILL.md"
+    },
+    {
+        "id": "page-cro",
+        "name": "Page Cro",
+        "icon": "TrendingUp",
+        "description": "Page Cro yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/page-cro/SKILL.md"
+    },
+    {
+        "id": "paid-ads",
+        "name": "Paid Ads",
+        "icon": "BrainCircuit",
+        "description": "Paid Ads yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/paid-ads/SKILL.md"
+    },
+    {
+        "id": "parallel-agents",
+        "name": "Parallel Agents",
+        "icon": "BrainCircuit",
+        "description": "Parallel Agents yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/parallel-agents/SKILL.md"
+    },
+    {
+        "id": "paywall-upgrade-cro",
+        "name": "Paywall Upgrade Cro",
+        "icon": "TrendingUp",
+        "description": "Paywall Upgrade Cro yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/paywall-upgrade-cro/SKILL.md"
+    },
+    {
+        "id": "pdf",
+        "name": "Pdf",
+        "icon": "Cpu",
+        "description": "Pdf yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/pdf/SKILL.md"
+    },
+    {
+        "id": "pdf-official",
+        "name": "Pdf Official",
+        "icon": "Cpu",
+        "description": "Pdf Official yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/pdf-official/SKILL.md"
+    },
+    {
+        "id": "pentest-checklist",
+        "name": "Pentest Checklist",
+        "icon": "Cpu",
+        "description": "Pentest Checklist yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/pentest-checklist/SKILL.md"
+    },
+    {
+        "id": "pentest-commands",
+        "name": "Pentest Commands",
+        "icon": "Cpu",
+        "description": "Pentest Commands yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/pentest-commands/SKILL.md"
+    },
+    {
+        "id": "performance-profiling",
+        "name": "Performance Profiling",
+        "icon": "Cpu",
+        "description": "Performance Profiling yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/performance-profiling/SKILL.md"
+    },
+    {
+        "id": "personal-tool-builder",
+        "name": "Personal Tool Builder",
+        "icon": "Palette",
+        "description": "Personal Tool Builder yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/personal-tool-builder/SKILL.md"
+    },
+    {
+        "id": "plaid-fintech",
+        "name": "Plaid Fintech",
+        "icon": "BrainCircuit",
+        "description": "Plaid Fintech yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/plaid-fintech/SKILL.md"
+    },
+    {
+        "id": "plan-writing",
+        "name": "Plan Writing",
+        "icon": "Cpu",
+        "description": "Plan Writing yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/plan-writing/SKILL.md"
+    },
+    {
+        "id": "planning-with-files",
+        "name": "Planning With Files",
+        "icon": "Cpu",
+        "description": "Planning With Files yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/planning-with-files/SKILL.md"
+    },
+    {
+        "id": "playwright-skill",
+        "name": "Playwright Skill",
+        "icon": "Cpu",
+        "description": "Playwright Skill yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/playwright-skill/SKILL.md"
+    },
+    {
+        "id": "popup-cro",
+        "name": "Popup Cro",
+        "icon": "TrendingUp",
+        "description": "Popup Cro yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/popup-cro/SKILL.md"
+    },
+    {
+        "id": "powershell-windows",
+        "name": "Powershell Windows",
+        "icon": "Cpu",
+        "description": "Powershell Windows yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/powershell-windows/SKILL.md"
+    },
+    {
+        "id": "pptx",
+        "name": "Pptx",
+        "icon": "Cpu",
+        "description": "Pptx yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/pptx/SKILL.md"
+    },
+    {
+        "id": "pptx-official",
+        "name": "Pptx Official",
+        "icon": "Cpu",
+        "description": "Pptx Official yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/pptx-official/SKILL.md"
+    },
+    {
+        "id": "pricing-strategy",
+        "name": "Pricing Strategy",
+        "icon": "Cpu",
+        "description": "Pricing Strategy yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/pricing-strategy/SKILL.md"
+    },
+    {
+        "id": "prisma-expert",
+        "name": "Prisma Expert",
+        "icon": "Cpu",
+        "description": "Prisma Expert yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/prisma-expert/SKILL.md"
+    },
+    {
+        "id": "privilege-escalation-methods",
+        "name": "Privilege Escalation Methods",
+        "icon": "Cpu",
+        "description": "Privilege Escalation Methods yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/privilege-escalation-methods/SKILL.md"
+    },
+    {
+        "id": "product-manager-toolkit",
+        "name": "Product Manager Toolkit",
+        "icon": "Cpu",
+        "description": "Product Manager Toolkit yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/product-manager-toolkit/SKILL.md"
+    },
+    {
+        "id": "programmatic-seo",
+        "name": "Programmatic Seo",
+        "icon": "TrendingUp",
+        "description": "Programmatic Seo yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/programmatic-seo/SKILL.md"
+    },
+    {
+        "id": "project-guardian",
+        "name": "Project Guardian",
+        "icon": "Cpu",
+        "description": "Project Guardian yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/project-guardian/SKILL.md"
+    },
+    {
+        "id": "prompt-caching",
+        "name": "Prompt Caching",
+        "icon": "BrainCircuit",
+        "description": "Prompt Caching yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/prompt-caching/SKILL.md"
+    },
+    {
+        "id": "prompt-engineer",
+        "name": "Prompt Engineer",
+        "icon": "BrainCircuit",
+        "description": "Prompt Engineer yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/prompt-engineer/SKILL.md"
+    },
+    {
+        "id": "prompt-engineering",
+        "name": "Prompt Engineering",
+        "icon": "BrainCircuit",
+        "description": "Prompt Engineering yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/prompt-engineering/SKILL.md"
+    },
+    {
+        "id": "prompt-library",
+        "name": "Prompt Library",
+        "icon": "BrainCircuit",
+        "description": "Prompt Library yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/prompt-library/SKILL.md"
+    },
+    {
+        "id": "python-patterns",
+        "name": "Python Patterns",
+        "icon": "Cpu",
+        "description": "Python Patterns yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/python-patterns/SKILL.md"
+    },
+    {
+        "id": "qa-engineer",
+        "name": "Qa Engineer",
+        "icon": "Cpu",
+        "description": "Qa Engineer yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/qa-engineer/SKILL.md"
+    },
+    {
+        "id": "rag-engineer",
+        "name": "Rag Engineer",
+        "icon": "BrainCircuit",
+        "description": "Rag Engineer yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/rag-engineer/SKILL.md"
+    },
+    {
+        "id": "rag-implementation",
+        "name": "Rag Implementation",
+        "icon": "BrainCircuit",
+        "description": "Rag Implementation yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/rag-implementation/SKILL.md"
+    },
+    {
+        "id": "react-best-practices",
+        "name": "React Best Practices",
+        "icon": "Palette",
+        "description": "React Best Practices yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/react-best-practices/SKILL.md"
+    },
+    {
+        "id": "react-patterns",
+        "name": "React Patterns",
+        "icon": "Palette",
+        "description": "React Patterns yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/react-patterns/SKILL.md"
+    },
+    {
+        "id": "react-ui-patterns",
+        "name": "React Ui Patterns",
+        "icon": "Palette",
+        "description": "React Ui Patterns yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/react-ui-patterns/SKILL.md"
+    },
+    {
+        "id": "receiving-code-review",
+        "name": "Receiving Code Review",
+        "icon": "Cpu",
+        "description": "Receiving Code Review yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/receiving-code-review/SKILL.md"
+    },
+    {
+        "id": "red-team-tactics",
+        "name": "Red Team Tactics",
+        "icon": "ShieldCheck",
+        "description": "Red Team Tactics yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/red-team-tactics/SKILL.md"
+    },
+    {
+        "id": "red-team-tools",
+        "name": "Red Team Tools",
+        "icon": "ShieldCheck",
+        "description": "Red Team Tools yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/red-team-tools/SKILL.md"
+    },
+    {
+        "id": "referral-program",
+        "name": "Referral Program",
+        "icon": "Cpu",
+        "description": "Referral Program yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/referral-program/SKILL.md"
+    },
+    {
+        "id": "remotion-best-practices",
+        "name": "Remotion Best Practices",
+        "icon": "Cpu",
+        "description": "Remotion Best Practices yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/remotion-best-practices/SKILL.md"
+    },
+    {
+        "id": "requesting-code-review",
+        "name": "Requesting Code Review",
+        "icon": "Cpu",
+        "description": "Requesting Code Review yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/requesting-code-review/SKILL.md"
+    },
+    {
+        "id": "research-engineer",
+        "name": "Research Engineer",
+        "icon": "Cpu",
+        "description": "Research Engineer yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/research-engineer/SKILL.md"
+    },
+    {
+        "id": "salesforce-development",
+        "name": "Salesforce Development",
+        "icon": "Cpu",
+        "description": "Salesforce Development yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/salesforce-development/SKILL.md"
+    },
+    {
+        "id": "scanning-tools",
+        "name": "Scanning Tools",
+        "icon": "Cpu",
+        "description": "Scanning Tools yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/scanning-tools/SKILL.md"
+    },
+    {
+        "id": "schema-markup",
+        "name": "Schema Markup",
+        "icon": "Cpu",
+        "description": "Schema Markup yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/schema-markup/SKILL.md"
+    },
+    {
+        "id": "scroll-experience",
+        "name": "Scroll Experience",
+        "icon": "TrendingUp",
+        "description": "Scroll Experience yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/scroll-experience/SKILL.md"
+    },
+    {
+        "id": "segment-cdp",
+        "name": "Segment Cdp",
+        "icon": "Cpu",
+        "description": "Segment Cdp yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/segment-cdp/SKILL.md"
+    },
+    {
+        "id": "senior-architect",
+        "name": "Senior Architect",
+        "icon": "Cpu",
+        "description": "Senior Architect yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/senior-architect/SKILL.md"
+    },
+    {
+        "id": "senior-fullstack",
+        "name": "Senior Fullstack",
+        "icon": "Cpu",
+        "description": "Senior Fullstack yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/senior-fullstack/SKILL.md"
+    },
+    {
+        "id": "seo-audit",
+        "name": "Seo Audit",
+        "icon": "TrendingUp",
+        "description": "Seo Audit yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/seo-audit/SKILL.md"
+    },
+    {
+        "id": "seo-fundamentals",
+        "name": "Seo Fundamentals",
+        "icon": "TrendingUp",
+        "description": "Seo Fundamentals yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/seo-fundamentals/SKILL.md"
+    },
+    {
+        "id": "server-management",
+        "name": "Server Management",
+        "icon": "Server",
+        "description": "Server Management yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/server-management/SKILL.md"
+    },
+    {
+        "id": "shodan-reconnaissance",
+        "name": "Shodan Reconnaissance",
+        "icon": "BrainCircuit",
+        "description": "Shodan Reconnaissance yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/shodan-reconnaissance/SKILL.md"
+    },
+    {
+        "id": "shopify-apps",
+        "name": "Shopify Apps",
+        "icon": "Cpu",
+        "description": "Shopify Apps yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/shopify-apps/SKILL.md"
+    },
+    {
+        "id": "shopify-development",
+        "name": "Shopify Development",
+        "icon": "Cpu",
+        "description": "Shopify Development yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/shopify-development/SKILL.md"
+    },
+    {
+        "id": "signup-flow-cro",
+        "name": "Signup Flow Cro",
+        "icon": "TrendingUp",
+        "description": "Signup Flow Cro yeteneği. Sisteminize SEO & Growth alanında uzmanlık katar.",
+        "role": "SEO & Growth Uzmanı",
+        "categories": [
+            "SEO & Growth"
+        ],
+        "file_path": "/skills/signup-flow-cro/SKILL.md"
+    },
+    {
+        "id": "skill-creator",
+        "name": "Skill Creator",
+        "icon": "Cpu",
+        "description": "Skill Creator yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/skill-creator/SKILL.md"
+    },
+    {
+        "id": "skill-developer",
+        "name": "Skill Developer",
+        "icon": "Cpu",
+        "description": "Skill Developer yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/skill-developer/SKILL.md"
+    },
+    {
+        "id": "slack-bot-builder",
+        "name": "Slack Bot Builder",
+        "icon": "Palette",
+        "description": "Slack Bot Builder yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/slack-bot-builder/SKILL.md"
+    },
+    {
+        "id": "slack-gif-creator",
+        "name": "Slack Gif Creator",
+        "icon": "Cpu",
+        "description": "Slack Gif Creator yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/slack-gif-creator/SKILL.md"
+    },
+    {
+        "id": "smtp-penetration-testing",
+        "name": "Smtp Penetration Testing",
+        "icon": "ShieldCheck",
+        "description": "Smtp Penetration Testing yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/smtp-penetration-testing/SKILL.md"
+    },
+    {
+        "id": "social-content",
+        "name": "Social Content",
+        "icon": "Cpu",
+        "description": "Social Content yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/social-content/SKILL.md"
+    },
+    {
+        "id": "software-architecture",
+        "name": "Software Architecture",
+        "icon": "Cpu",
+        "description": "Software Architecture yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/software-architecture/SKILL.md"
+    },
+    {
+        "id": "sql-injection-testing",
+        "name": "Sql Injection Testing",
+        "icon": "Server",
+        "description": "Sql Injection Testing yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/sql-injection-testing/SKILL.md"
+    },
+    {
+        "id": "sqlmap-database-pentesting",
+        "name": "Sqlmap Database Pentesting",
+        "icon": "Server",
+        "description": "Sqlmap Database Pentesting yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/sqlmap-database-pentesting/SKILL.md"
+    },
+    {
+        "id": "ssh-penetration-testing",
+        "name": "Ssh Penetration Testing",
+        "icon": "ShieldCheck",
+        "description": "Ssh Penetration Testing yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/ssh-penetration-testing/SKILL.md"
+    },
+    {
+        "id": "stripe-integration",
+        "name": "Stripe Integration",
+        "icon": "Cpu",
+        "description": "Stripe Integration yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/stripe-integration/SKILL.md"
+    },
+    {
+        "id": "subagent-driven-development",
+        "name": "Subagent Driven Development",
+        "icon": "BrainCircuit",
+        "description": "Subagent Driven Development yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/subagent-driven-development/SKILL.md"
+    },
+    {
+        "id": "system-ops-expert",
+        "name": "System Ops Expert",
+        "icon": "Cpu",
+        "description": "System Ops Expert yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/system-ops-expert/SKILL.md"
+    },
+    {
+        "id": "systematic-debugging",
+        "name": "Systematic Debugging",
+        "icon": "Cpu",
+        "description": "Systematic Debugging yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/systematic-debugging/SKILL.md"
+    },
+    {
+        "id": "tailwind-patterns",
+        "name": "Tailwind Patterns",
+        "icon": "Palette",
+        "description": "Tailwind Patterns yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/tailwind-patterns/SKILL.md"
+    },
+    {
+        "id": "tdd-workflow",
+        "name": "Tdd Workflow",
+        "icon": "Cpu",
+        "description": "Tdd Workflow yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/tdd-workflow/SKILL.md"
+    },
+    {
+        "id": "telegram-bot-builder",
+        "name": "Telegram Bot Builder",
+        "icon": "Palette",
+        "description": "Telegram Bot Builder yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/telegram-bot-builder/SKILL.md"
+    },
+    {
+        "id": "telegram-mini-app",
+        "name": "Telegram Mini App",
+        "icon": "Cpu",
+        "description": "Telegram Mini App yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/telegram-mini-app/SKILL.md"
+    },
+    {
+        "id": "test-driven-development",
+        "name": "Test Driven Development",
+        "icon": "Cpu",
+        "description": "Test Driven Development yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/test-driven-development/SKILL.md"
+    },
+    {
+        "id": "test-fixing",
+        "name": "Test Fixing",
+        "icon": "Cpu",
+        "description": "Test Fixing yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/test-fixing/SKILL.md"
+    },
+    {
+        "id": "testing-patterns",
+        "name": "Testing Patterns",
+        "icon": "Cpu",
+        "description": "Testing Patterns yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/testing-patterns/SKILL.md"
+    },
+    {
+        "id": "theme-factory",
+        "name": "Theme Factory",
+        "icon": "Cpu",
+        "description": "Theme Factory yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/theme-factory/SKILL.md"
+    },
+    {
+        "id": "top-web-vulnerabilities",
+        "name": "Top Web Vulnerabilities",
+        "icon": "Cpu",
+        "description": "Top Web Vulnerabilities yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/top-web-vulnerabilities/SKILL.md"
+    },
+    {
+        "id": "trigger-dev",
+        "name": "Trigger Dev",
+        "icon": "Cpu",
+        "description": "Trigger Dev yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/trigger-dev/SKILL.md"
+    },
+    {
+        "id": "twilio-communications",
+        "name": "Twilio Communications",
+        "icon": "Cpu",
+        "description": "Twilio Communications yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/twilio-communications/SKILL.md"
+    },
+    {
+        "id": "typescript-expert",
+        "name": "Typescript Expert",
+        "icon": "Cpu",
+        "description": "Typescript Expert yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/typescript-expert/SKILL.md"
+    },
+    {
+        "id": "ui-ux-pro-max",
+        "name": "Ui Ux Pro Max",
+        "icon": "Palette",
+        "description": "Ui Ux Pro Max yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/ui-ux-pro-max/SKILL.md"
+    },
+    {
+        "id": "upstash-qstash",
+        "name": "Upstash Qstash",
+        "icon": "Cpu",
+        "description": "Upstash Qstash yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/upstash-qstash/SKILL.md"
+    },
+    {
+        "id": "using-git-worktrees",
+        "name": "Using Git Worktrees",
+        "icon": "Cpu",
+        "description": "Using Git Worktrees yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/using-git-worktrees/SKILL.md"
+    },
+    {
+        "id": "using-superpowers",
+        "name": "Using Superpowers",
+        "icon": "Cpu",
+        "description": "Using Superpowers yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/using-superpowers/SKILL.md"
+    },
+    {
+        "id": "vercel-deployment",
+        "name": "Vercel Deployment",
+        "icon": "Cpu",
+        "description": "Vercel Deployment yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/vercel-deployment/SKILL.md"
+    },
+    {
+        "id": "verification-before-completion",
+        "name": "Verification Before Completion",
+        "icon": "Cpu",
+        "description": "Verification Before Completion yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/verification-before-completion/SKILL.md"
+    },
+    {
+        "id": "viral-generator-builder",
+        "name": "Viral Generator Builder",
+        "icon": "Palette",
+        "description": "Viral Generator Builder yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/viral-generator-builder/SKILL.md"
+    },
+    {
+        "id": "voice-agents",
+        "name": "Voice Agents",
+        "icon": "BrainCircuit",
+        "description": "Voice Agents yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/voice-agents/SKILL.md"
+    },
+    {
+        "id": "voice-ai-development",
+        "name": "Voice Ai Development",
+        "icon": "BrainCircuit",
+        "description": "Voice Ai Development yeteneği. Sisteminize Yapay Zeka (AI) alanında uzmanlık katar.",
+        "role": "Yapay Zeka (AI) Uzmanı",
+        "categories": [
+            "Yapay Zeka (AI)"
+        ],
+        "file_path": "/skills/voice-ai-development/SKILL.md"
+    },
+    {
+        "id": "vulnerability-scanner",
+        "name": "Vulnerability Scanner",
+        "icon": "ShieldCheck",
+        "description": "Vulnerability Scanner yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/vulnerability-scanner/SKILL.md"
+    },
+    {
+        "id": "web-artifacts-builder",
+        "name": "Web Artifacts Builder",
+        "icon": "Palette",
+        "description": "Web Artifacts Builder yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/web-artifacts-builder/SKILL.md"
+    },
+    {
+        "id": "web-design-guidelines",
+        "name": "Web Design Guidelines",
+        "icon": "Palette",
+        "description": "Web Design Guidelines yeteneği. Sisteminize Frontend & Tasarım alanında uzmanlık katar.",
+        "role": "Frontend & Tasarım Uzmanı",
+        "categories": [
+            "Frontend & Tasarım"
+        ],
+        "file_path": "/skills/web-design-guidelines/SKILL.md"
+    },
+    {
+        "id": "web-performance-optimization",
+        "name": "Web Performance Optimization",
+        "icon": "Cpu",
+        "description": "Web Performance Optimization yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/web-performance-optimization/SKILL.md"
+    },
+    {
+        "id": "webapp-testing",
+        "name": "Webapp Testing",
+        "icon": "Cpu",
+        "description": "Webapp Testing yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/webapp-testing/SKILL.md"
+    },
+    {
+        "id": "windows-privilege-escalation",
+        "name": "Windows Privilege Escalation",
+        "icon": "Cpu",
+        "description": "Windows Privilege Escalation yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/windows-privilege-escalation/SKILL.md"
+    },
+    {
+        "id": "wireshark-analysis",
+        "name": "Wireshark Analysis",
+        "icon": "Cpu",
+        "description": "Wireshark Analysis yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/wireshark-analysis/SKILL.md"
+    },
+    {
+        "id": "wordpress-penetration-testing",
+        "name": "Wordpress Penetration Testing",
+        "icon": "ShieldCheck",
+        "description": "Wordpress Penetration Testing yeteneği. Sisteminize Siber Güvenlik alanında uzmanlık katar.",
+        "role": "Siber Güvenlik Uzmanı",
+        "categories": [
+            "Siber Güvenlik"
+        ],
+        "file_path": "/skills/wordpress-penetration-testing/SKILL.md"
+    },
+    {
+        "id": "workflow-automation",
+        "name": "Workflow Automation",
+        "icon": "Cpu",
+        "description": "Workflow Automation yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/workflow-automation/SKILL.md"
+    },
+    {
+        "id": "writing-plans",
+        "name": "Writing Plans",
+        "icon": "Cpu",
+        "description": "Writing Plans yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/writing-plans/SKILL.md"
+    },
+    {
+        "id": "writing-skills",
+        "name": "Writing Skills",
+        "icon": "Cpu",
+        "description": "Writing Skills yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/writing-skills/SKILL.md"
+    },
+    {
+        "id": "xlsx",
+        "name": "Xlsx",
+        "icon": "Cpu",
+        "description": "Xlsx yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/xlsx/SKILL.md"
+    },
+    {
+        "id": "xlsx-official",
+        "name": "Xlsx Official",
+        "icon": "Cpu",
+        "description": "Xlsx Official yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/xlsx-official/SKILL.md"
+    },
+    {
+        "id": "xss-html-injection",
+        "name": "Xss Html Injection",
+        "icon": "Cpu",
+        "description": "Xss Html Injection yeteneği. Sisteminize Genel / Diğer alanında uzmanlık katar.",
+        "role": "Genel / Diğer Uzmanı",
+        "categories": [
+            "Genel / Diğer"
+        ],
+        "file_path": "/skills/xss-html-injection/SKILL.md"
+    },
+    {
+        "id": "zapier-make-patterns",
+        "name": "Zapier Make Patterns",
+        "icon": "Server",
+        "description": "Zapier Make Patterns yeteneği. Sisteminize Backend & DevOps alanında uzmanlık katar.",
+        "role": "Backend & DevOps Uzmanı",
+        "categories": [
+            "Backend & DevOps"
+        ],
+        "file_path": "/skills/zapier-make-patterns/SKILL.md"
     }
 ]

@@ -1,25 +1,33 @@
 import { motion } from 'framer-motion';
 import { Zap, ShieldCheck, BrainCircuit } from 'lucide-react';
 
+import { AntigravityLogo } from '../components/ui/AntigravityLogo';
+
 const Home = () => {
     return (
-        <div className="space-y-12">
+        <div className="flex flex-col items-center justify-center min-h-[80vh] text-center space-y-12">
             {/* Hero Section */}
-            <section className="text-center py-16 relative">
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                    className="relative z-10"
-                >
-                    <h1 className="text-6xl md:text-7xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 mb-6 drop-shadow-sm">
-                        Antigravity
-                    </h1>
-                    <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                        Yapay Zeka Destekli, Otonom ve<br />
-                        <span className="text-foreground font-semibold">Yetenek Tabanlı Geliştirme Ortamı</span>
-                    </p>
-                </motion.div>
+            <section className="py-16 relative">
+                <div className="space-y-6 max-w-3xl">
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.5 }}
+                        className="flex justify-center"
+                    >
+                        <AntigravityLogo className="h-24 w-auto md:h-32" />
+                    </motion.div>
+
+                    <motion.p
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.2 }}
+                        className="text-2xl text-muted-foreground font-light"
+                    >
+                        Yapay Zeka Destekli, Otonom ve <br />
+                        <span className="font-semibold text-foreground">Yetenek Tabanlı Geliştirme Ortamı</span>
+                    </motion.p>
+                </div>
 
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-blue-400/20 rounded-full blur-3xl -z-10 animate-pulse"></div>
             </section>
