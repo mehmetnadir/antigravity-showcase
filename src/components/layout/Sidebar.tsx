@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, BookOpen, Zap, GitBranch, Download, Cloud, Smartphone, MessageSquare } from 'lucide-react';
+import { LayoutDashboard, BookOpen, Zap, GitBranch, Cloud, Smartphone, MessageSquare } from 'lucide-react';
 import { cn } from '../../lib/utils';
 
 export const Sidebar = () => {

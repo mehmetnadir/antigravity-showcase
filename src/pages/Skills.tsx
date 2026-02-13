@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { Download, Palette, Server, Cpu, ShieldCheck, BrainCircuit, Smartphone, TrendingUp, Gamepad2, Search, Filter } from 'lucide-react';
+import { Download, Palette, Server, Cpu, ShieldCheck, BrainCircuit, Smartphone, TrendingUp, Gamepad2, Search } from 'lucide-react';
 import skillsData from '../data/skills.json';
 
 const iconMap: any = { Palette, Server, Cpu, ShieldCheck, BrainCircuit, Smartphone, TrendingUp, Gamepad2 };
