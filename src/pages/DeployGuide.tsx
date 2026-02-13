@@ -7,9 +7,9 @@ const DeployGuide = () => {
     return (
         <div className="space-y-12 max-w-4xl mx-auto">
             <div className="text-center mb-10">
-                <h2 className="text-3xl font-bold text-foreground">GitHub ile Yayınlama</h2>
+                <h2 className="text-3xl font-bold text-foreground">Tasarım Hazırlama ve Yayınlama</h2>
                 <p className="text-muted-foreground mt-2 text-lg">
-                    Projeniz yerel olarak Git'e hazırlandı. Şimdi GitHub'a gönderelim.
+                    Stitch ve Figma ile tasarımlar yapın, ardından webde herkesle paylaşın.
                 </p>
                 <div className="mt-8">
                     <LessonVideo

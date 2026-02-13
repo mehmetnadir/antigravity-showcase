@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, BookOpen, Zap, GitBranch, Cloud, Smartphone, MessageSquare, Terminal } from 'lucide-react';
+import { LayoutDashboard, BookOpen, Zap, GitBranch, Cloud, MessageSquare, Terminal } from 'lucide-react';
 import { cn } from '../../lib/utils';
 
 export const Sidebar = () => {
@@ -9,8 +9,9 @@ export const Sidebar = () => {
         { to: "/rules", icon: BookOpen, label: "Kurallar" },
         { to: "/skills", icon: Zap, label: "Yetenekler" },
         { to: "/workflow", icon: GitBranch, label: "Akış" },
-        { to: "/deploy", icon: Cloud, label: "Nasıl Yayınlanır?" },
-        { to: "/mobile", icon: Smartphone, label: "Mobil Uygulama" },
+        { to: "/skills", icon: Zap, label: "Yetenekler" },
+        { to: "/workflow", icon: GitBranch, label: "Akış" },
+        { to: "/deploy", icon: Cloud, label: "Tasarım & Yayınlama" },
         {
             to: "https://notebooklm.google.com/notebook/d6fb55c9-3f35-4e3e-b78f-8af4bae2bd71",
             icon: MessageSquare,
