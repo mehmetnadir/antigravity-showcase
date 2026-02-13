@@ -7,6 +7,7 @@ import Skills from './pages/Skills.tsx';
 import Workflow from './pages/Workflow';
 import DeployGuide from './pages/DeployGuide';
 import SetupGuide from './pages/SetupGuide';
+import Assistant from './pages/Assistant';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/workflow" element={<Workflow />} />
           <Route path="/deploy" element={<DeployGuide />} />
+          <Route path="/assistant" element={<Assistant />} />
         </Routes>
       </MainLayout>
     </Router>
