@@ -54,11 +54,16 @@ const SetupGuide = () => {
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                                <button className="flex items-center justify-center gap-3 bg-white text-slate-900 px-8 py-4 rounded-xl font-bold hover:bg-slate-100 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 group">
+                                <a
+                                    href="https://antigravity.google/download"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center justify-center gap-3 bg-white text-slate-900 px-8 py-4 rounded-xl font-bold hover:bg-slate-100 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 group"
+                                >
                                     <Download className="w-5 h-5 group-hover:scale-110 transition-transform" />
                                     <span>macOS için İndir</span>
                                     <span className="text-xs font-normal text-slate-500 ml-1">(Intel & Silicon)</span>
-                                </button>
+                                </a>
 
                                 <button className="flex items-center justify-center gap-3 bg-white/10 text-white px-8 py-4 rounded-xl font-bold hover:bg-white/20 transition-all border border-white/10 backdrop-blur-sm">
                                     <Terminal className="w-5 h-5" />
