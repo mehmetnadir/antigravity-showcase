@@ -28,14 +28,14 @@ const SetupGuide = () => {
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="bg-gradient-to-br from-indigo-900 via-purple-900 to-slate-900 rounded-[2rem] p-1 shadow-2xl overflow-hidden relative"
+                className="bg-gradient-to-br from-indigo-900 via-purple-900 to-slate-900 rounded-3xl md:rounded-[2rem] p-1 shadow-2xl overflow-hidden relative"
             >
-                <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-500/30 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+                <div className="hidden md:block absolute top-0 right-0 w-[600px] h-[600px] bg-blue-500/30 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
 
-                <div className="bg-black/20 backdrop-blur-md rounded-[1.8rem] p-8 md:p-12 relative z-10">
-                    <div className="flex flex-col md:flex-row gap-12 items-center">
-                        <div className="flex-1 space-y-6">
-                            <div className="flex items-center gap-3 mb-2">
+                <div className="bg-black/20 backdrop-blur-md rounded-[1.4rem] md:rounded-[1.8rem] p-6 md:p-12 relative z-10">
+                    <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
+                        <div className="flex-1 space-y-6 text-center lg:text-left">
+                            <div className="flex items-center justify-center lg:justify-start gap-3 mb-2">
                                 <div className="px-3 py-1 bg-white/10 rounded-full text-xs font-bold text-white uppercase tracking-wider border border-white/20">
                                     v2.1 Release
                                 </div>
@@ -45,11 +45,11 @@ const SetupGuide = () => {
                                 </div>
                             </div>
 
-                            <h2 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
+                            <h2 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
                                 Antigravity <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Engine</span>
                             </h2>
 
-                            <p className="text-lg text-slate-300 leading-relaxed max-w-lg">
+                            <p className="text-base md:text-lg text-slate-300 leading-relaxed max-w-lg mx-auto lg:mx-0">
                                 Yapay zeka orkestrasyonu ve otonom kodlama için tasarlanmış yeni nesil işletim sistemi. Cursor ve Windsurf ile kusursuz entegrasyon sağlar.
                             </p>
 
@@ -72,16 +72,16 @@ const SetupGuide = () => {
 
                         {/* Interactive Terminal Visual */}
                         <div className="flex-1 w-full max-w-md">
-                            <div className="bg-[#1E1E1E] rounded-xl overflow-hidden shadow-2xl border border-white/10 font-mono text-sm relative group">
+                            <div className="bg-[#1E1E1E] rounded-xl overflow-hidden shadow-2xl border border-white/10 font-mono text-xs md:text-sm relative group">
                                 <div className="flex items-center justify-between px-4 py-3 bg-[#2D2D2D] border-b border-black/50">
                                     <div className="flex gap-2">
-                                        <div className="w-3 h-3 rounded-full bg-[#FF5F56]"></div>
-                                        <div className="w-3 h-3 rounded-full bg-[#FFBD2E]"></div>
-                                        <div className="w-3 h-3 rounded-full bg-[#27C93F]"></div>
+                                        <div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-[#FF5F56]"></div>
+                                        <div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-[#FFBD2E]"></div>
+                                        <div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-[#27C93F]"></div>
                                     </div>
-                                    <div className="text-slate-500 text-xs">zsh — antigravity</div>
+                                    <div className="text-slate-500 text-[10px] md:text-xs">zsh — antigravity</div>
                                 </div>
-                                <div className="p-6 space-y-4 text-slate-300 min-h-[220px]">
+                                <div className="p-4 md:p-6 space-y-4 text-slate-300 min-h-[180px] md:min-h-[220px]">
                                     <div>
                                         <span className="text-green-400">➜</span> <span className="text-cyan-400">~</span> <span className="text-white">npx antigravity-init</span>
                                     </div>
@@ -205,8 +205,8 @@ const SetupGuide = () => {
 
 
             {/* Narrative & Video Section */}
-            <div className="grid md:grid-cols-2 gap-12 items-start">
-                <div className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
+                <div className="space-y-6 order-2 md:order-1">
                     <div>
                         <h3 className="text-2xl font-bold text-slate-900 mb-2">Kurulumdan Sonra Ne Olacak?</h3>
                         <p className="text-slate-600 leading-relaxed">
@@ -224,11 +224,13 @@ const SetupGuide = () => {
                     </div>
                 </div>
 
-                <LessonVideo
-                    title="1. Ders: Kurulum ve Temeller"
-                    description="Geliştirme ortamının hazırlanması ve ilk adımlar."
-                    videoUrl="https://drive.google.com/file/d/1dyYGJbEFGlhrs7gQrg4F4cNkLCtFa9x0/view?usp=drive_link"
-                />
+                <div className="order-1 md:order-2">
+                    <LessonVideo
+                        title="1. Ders: Kurulum ve Temeller"
+                        description="Geliştirme ortamının hazırlanması ve ilk adımlar."
+                        videoUrl="https://drive.google.com/file/d/1dyYGJbEFGlhrs7gQrg4F4cNkLCtFa9x0/view?usp=drive_link"
+                    />
+                </div>
             </div>
 
 
