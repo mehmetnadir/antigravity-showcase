@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Terminal, Download, Zap, Folder, Play, CheckCircle } from 'lucide-react';
+import { Terminal, Download, Zap, Folder } from 'lucide-react';
 import { LessonVideo } from '../components/ui/LessonVideo';
 
 const SetupGuide = () => {
@@ -50,7 +50,7 @@ const SetupGuide = () => {
                             </h2>
 
                             <p className="text-base md:text-lg text-slate-300 leading-relaxed max-w-lg mx-auto lg:mx-0">
-                                Yapay zeka orkestrasyonu ve otonom kodlama için tasarlanmış yeni nesil işletim sistemi. Cursor ve Windsurf ile kusursuz entegrasyon sağlar.
+                                Yapay zeka orkestrasyonu ve otonom kodlama için tasarlanmış, tamamen bağımsız ve ücretsiz yeni nesil geliştirme ortamı.
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -144,6 +144,54 @@ const SetupGuide = () => {
                         description="Geliştirme ortamının hazırlanması ve ilk adımlar."
                         videoUrl="https://drive.google.com/file/d/1dyYGJbEFGlhrs7gQrg4F4cNkLCtFa9x0/view?usp=drive_link"
                     />
+                </div>
+            </div>
+
+            {/* Alternative IDEs Section */}
+            <div className="pt-12 border-t border-slate-200">
+                <h3 className="text-xl font-bold text-slate-900 mb-6 text-center">Diğer Ücretsiz Seçenekler</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                    {/* Cursor Link */}
+                    <a
+                        href="https://cursor.sh/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex flex-col items-center p-6 bg-white rounded-xl border border-slate-200 hover:border-black/20 hover:shadow-md transition-all text-center"
+                    >
+                        <div className="w-12 h-12 bg-black text-white rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                            <Terminal className="w-6 h-6" />
+                        </div>
+                        <h4 className="font-bold text-slate-900">Cursor</h4>
+                        <p className="text-xs text-slate-500 mt-1">VS Code Fork</p>
+                    </a>
+
+                    {/* Windsurf Link */}
+                    <a
+                        href="https://windsurf.ai/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex flex-col items-center p-6 bg-white rounded-xl border border-slate-200 hover:border-teal-500/30 hover:shadow-md transition-all text-center"
+                    >
+                        <div className="w-12 h-12 bg-teal-600 text-white rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                            <Zap className="w-6 h-6" />
+                        </div>
+                        <h4 className="font-bold text-slate-900">Windsurf</h4>
+                        <p className="text-xs text-slate-500 mt-1">Agentic Flow</p>
+                    </a>
+
+                    {/* VS Code Link */}
+                    <a
+                        href="https://code.visualstudio.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex flex-col items-center p-6 bg-white rounded-xl border border-slate-200 hover:border-blue-500/30 hover:shadow-md transition-all text-center"
+                    >
+                        <div className="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                            <Folder className="w-6 h-6" />
+                        </div>
+                        <h4 className="font-bold text-slate-900">VS Code</h4>
+                        <p className="text-xs text-slate-500 mt-1">Standart Editör</p>
+                    </a>
                 </div>
             </div>
 
